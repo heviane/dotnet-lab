@@ -1,4 +1,4 @@
-# Requisitos para Estudos em .NET
+# Requisitos para o ambiente de desenvolvimento em .NET
 
 Este arquivo descreve os requisitos de hardware, software e conhecimento para iniciar os estudos e o desenvolvimento na plataforma .NET.
 
@@ -37,7 +37,7 @@ O SDK é obrigatório. Ele inclui o runtime, as bibliotecas e as ferramentas de 
 
 Você precisará de um lugar para escrever seu código. As opções mais populares são:
 
-- **Visual Studio IDE**: A IDE mais completa para desenvolvimento .NET, com recursos avançados de depuração, testes e design. Ideal para desenvolvimento em Windows. ([Download](https://visualstudio.microsoft.com/))
+- **Visual Studio IDE**: A IDE mais completa para desenvolvimento .NET, com recursos avançados de depuração, testes e design. Ideal para desenvolvimento em Windows. ([Download](https://visualstudio.microsoft.com/downloads/))
 - **Visual Studio Code (VS Code)**: Um editor de código leve, rápido e extensível. É multiplataforma e uma excelente escolha para desenvolvimento em Windows, macOS e Linux. Requer a instalação de extensões para C# e .NET. ([Download](https://code.visualstudio.com/))
 - **JetBrains Rider**: Uma IDE .NET multiplataforma poderosa da JetBrains. É uma alternativa paga ao Visual Studio.
 
