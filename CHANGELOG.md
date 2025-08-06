@@ -6,6 +6,10 @@ O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.
 
 ## [Unreleased]
 
+### Added
+
+- Defined the main directory structure with `src` and `docs` folders to better organize the project.
+
 ## [0.1.0] - 2024-05-21
 
 ### Added
