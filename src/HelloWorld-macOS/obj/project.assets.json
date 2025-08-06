@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hevianebastos/Library/Mobile Documents/com~apple~CloudDocs/Projects/GitHub/heviane-studies/dotnet-lab/src/HelloWorld/HelloWorld.csproj",
-      "projectName": "HelloWorld",
-      "projectPath": "/Users/hevianebastos/Library/Mobile Documents/com~apple~CloudDocs/Projects/GitHub/heviane-studies/dotnet-lab/src/HelloWorld/HelloWorld.csproj",
+      "projectUniqueName": "/Users/hevianebastos/Library/Mobile Documents/com~apple~CloudDocs/Projects/GitHub/heviane-studies/dotnet-lab/src/HelloWorld-macOS/HelloWorld-macOS.csproj",
+      "projectName": "HelloWorld-macOS",
+      "projectPath": "/Users/hevianebastos/Library/Mobile Documents/com~apple~CloudDocs/Projects/GitHub/heviane-studies/dotnet-lab/src/HelloWorld-macOS/HelloWorld-macOS.csproj",
       "packagesPath": "/Users/hevianebastos/.nuget/packages/",
-      "outputPath": "/Users/hevianebastos/Library/Mobile Documents/com~apple~CloudDocs/Projects/GitHub/heviane-studies/dotnet-lab/src/HelloWorld/obj/",
+      "outputPath": "/Users/hevianebastos/Library/Mobile Documents/com~apple~CloudDocs/Projects/GitHub/heviane-studies/dotnet-lab/src/HelloWorld-macOS/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/hevianebastos/.nuget/NuGet/NuGet.Config"

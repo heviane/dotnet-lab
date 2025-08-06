@@ -16,7 +16,7 @@ caso não esteja, baixe e instale o SDK .NET no site [https://dotnet.microsoft.c
 
 ```bash
     cd /src # Se estiver na raiz do repositório
-    dotnet new console -o HelloWorld
+    dotnet new console -o HelloWorld-macOS
 ```
 
 Será criado um diretório chamado `HelloWorld` e dentro a estrutura básica de uma projeto C# para ser executada no terminal.
@@ -24,7 +24,7 @@ Será criado um diretório chamado `HelloWorld` e dentro a estrutura básica de 
 - Entre no diretório do projeto
 
 ```bash
-    cd HelloWorld
+    cd HelloWorld-macOS
 ```
 
 - Execute o projeto com o .NET
