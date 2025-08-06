@@ -8,6 +8,7 @@ O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.
 
 ### Added
 
+- Created the first "Hello World" console application in C# inside the `src/` directory.
 - Defined the main directory structure with `src` and `docs` folders to better organize the project.
 
 ## [0.1.0] - 2024-05-21
