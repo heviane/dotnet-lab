@@ -4,13 +4,22 @@ Este repositório é dedicado ao meu aprendizado e aprofundamento na plataforma 
 
 ## Estrutura do Repositório
 
-O projeto está organizado da seguinte forma:
+O projeto está organizado em diretórios que separam as documentações e as aplicações geradas por tipo de projeto.
 
 ```text
-├── docs/         # Anotações, resumos e materiais de estudo.
-├── src/          # Projetos e aplicações práticas desenvolvidas.
-└── ...           # Arquivos de documentação e configuração do projeto.
+.
+├── docs/                     # Anotações, resumos e materiais de estudo.
+├── src/                      # Projetos e aplicações práticas desenvolvidas.
+└── README.md                 # Este arquivo.
 ```
+
+Tipos de Projetos:
+
+**api**: Web API (webapi)
+**app**: ASP.NET Core Web App (MVC / Razor Pages)
+**console**: Console Application (console)
+**library**: Class Library (classlib)
+**tests**: Test Project (xunit, nunit, mstest)
 
 ## Documentação e Links Úteis
 
