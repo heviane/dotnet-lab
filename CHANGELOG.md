@@ -13,6 +13,14 @@ Todas as alterações notáveis a este projeto serão documentadas neste arquivo
 - Criado o primeiro aplicativo de console "Hello World" em C# dentro do diretório `src/`.
 - Definida a estrutura de diretórios principal com as pastas `src` e `docs` para melhor organizar o projeto.
 
+### ✏️ Alterado
+
+- ...
+
+### ➖ Removido
+
+- ...
+
 ## [0.1.0] - 2025-08-07
 
 ### ➕ Adicionado

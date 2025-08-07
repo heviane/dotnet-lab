@@ -28,8 +28,6 @@ Este é um projeto de código aberto e toda contribuição é bem-vinda! Se voc�
 
 Para garantir um ambiente seguro e acolhedor para todos, pedimos que siga nosso [Código de Conduta](./CODE_OF_CONDUCT.md).
 
-Ao contribuir, você concorda que suas contribuições serão licenciadas sob nossa [Licença do Projeto](./LICENSE.md).
-
 ---
 
 ## 📂 Estrutura do Repositório
@@ -69,3 +67,46 @@ O projeto é organizado de forma a separar claramente a documentação do códig
 
   * [Documentação Oficial do .NET](https://docs.microsoft.com/dotnet/)
   * [Microsoft Learn](https://learn.microsoft.com/dotnet) - A plataforma oficial da Microsoft oferece trilhas de aprendizagem, tutoriais e documentação completa para todo o ecossistema .NET.
+
+## 👥 Contribuidores
+
+Agradecemos a todos que contribuíram para este projeto.
+
+[![Contribuidores][contributors-shield]][contributors-url]
+
+## 🥇 Licença
+
+Este projeto está licenciado sob a Licença **Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional**.
+Veja a [Licença do Projeto](./LICENSE.md) para mais informações.
+
+## Contato
+
+Heviane Bastos: `+55 (51) 99855-1866` / `heviane@gmail.com`
+Project Link: https://github.com/heviane-studies/dotnet-lab
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+[![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url]
+
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+
+[contributors-shield]: https://img.shields.io/github/contributors/heviane/dotnet-lab.svg?style=for-the-badge
+[contributors-url]: https://github.com/heviane/dotnet-lab/graphs/contributors
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/hevianebastos/
+
+[forks-shield]: https://img.shields.io/github/forks/heviane/dotnet-lab.svg?style=for-the-badge
+[forks-url]: https://github.com/heviane/dotnet-lab/network/members
+
+[stars-shield]: https://img.shields.io/github/stars/heviane/dotnet-lab.svg?style=for-the-badge
+[stars-url]: https://github.com/heviane/dotnet-lab/stargazers
+
+[issues-shield]: https://img.shields.io/github/issues/heviane/dotnet-lab.svg?style=for-the-badge
+[issues-url]: https://github.com/heviane/dotnet-lab/issues

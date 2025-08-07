@@ -60,4 +60,8 @@ Para contribuir com código ou documentação, siga estes passos:
 
 7. **Abra um Pull Request:** Volte ao repositório original no GitHub e abra um Pull Request da sua branch para a branch `main` do nosso repositório. Preencha o template do PR com os detalhes da sua contribuição.
 
-Agradecemos muito por sua ajuda em tornar este projeto um recurso de aprendizado cada vez melhor!
+## 🥇 Licença
+
+Ao contribuir, você concorda que suas contribuições serão licenciadas sob a [Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional (CC BY-NC-SA 4.0)](./LICENSE.md).
+
+Obrigado pela sua contribuição!
