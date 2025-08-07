@@ -40,21 +40,23 @@ O projeto é organizado de forma a separar claramente a documentação do códig
     └── tests/                  # Projetos de testes automatizados (xUnit, etc.)
 ```
 
-Tipos de Projetos:
+### 💻 Tipos de Projetos
 
-**api**: Web API (webapi)
-**app**: ASP.NET Core Web App (MVC / Razor Pages)
-**console**: Console Application
-**library**: Class Library (classlib)
-**tests**: Test Project (xunit, nunit, mstest)
+* **api**: Web API (webapi)
+* **app**: ASP .NET Core Web App (MVC / Razor Pages)
+* **console**: Console Application
+* **library**: Class Library (classlib)
+* **tests**: Test Project (xunit, nunit, mstest)
 
-## Documentação e Links Úteis
+## 📄 Documentação e Links Úteis
 
-- [Requisitos para o ambiente de desenvolvimento em .NET](./docs/requirements-guide.md)
-- [Trilha de Aprendizagem .NET](./docs/dotnet-learning-plan.md) - Um guia passo a passo para seus estudos.
-- [Entendendo o Arquivo de Solução (.sln)](./docs/solution-file-explained.md)
-- [Guia de Comandos .NET CLI](./docs/dotnet-cli-guide.md) - Uma referência rápida para os comandos mais úteis.
-- [Changelog](./CHANGELOG.md) - Veja o histórico de alterações do projeto.
-- [Guia de Versionamento](./docs/versioning-guide.md) - Entenda como as versões do projeto são gerenciadas.
-- [Documentação Oficial do .NET](https://docs.microsoft.com/dotnet/)
-- [Microsoft Learn](https://learn.microsoft.com/dotnet) - A plataforma oficial da Microsoft oferece trilhas de aprendizagem, tutoriais e documentação completa para todo o ecossistema .NET.
+* [Requisitos para o ambiente de desenvolvimento em .NET](./docs/requirements-guide.md)
+* [Trilha de Aprendizagem .NET](./docs/dotnet-learning-plan.md) - Um guia passo a passo para seus estudos.
+* [Entendendo o Arquivo de Solução (.sln)](./docs/solution-file-explained.md)
+* [Guia de Comandos .NET CLI](./docs/dotnet-cli-guide.md) - Uma referência rápida para os comandos mais úteis.
+* [Guia de Versionamento](./docs/versioning-guide.md) - Entenda como as versões do projeto são gerenciadas.
+
+## 📄 Documentações e Links Oficiais
+
+* [Documentação Oficial do .NET](https://docs.microsoft.com/dotnet/)
+* [Microsoft Learn](https://learn.microsoft.com/dotnet) - A plataforma oficial da Microsoft oferece trilhas de aprendizagem, tutoriais e documentação completa para todo o ecossistema .NET.
