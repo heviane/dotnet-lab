@@ -28,6 +28,8 @@ Este é um projeto de código aberto e toda contribuição é bem-vinda! Se voc�
 
 Para garantir um ambiente seguro e acolhedor para todos, pedimos que siga nosso [Código de Conduta](./CODE_OF_CONDUCT.md).
 
+Ao contribuir, você concorda que suas contribuições serão licenciadas sob nossa [Licença do Projeto](./LICENSE.md).
+
 ---
 
 ## 📂 Estrutura do Repositório

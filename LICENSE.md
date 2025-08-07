@@ -1,21 +1,20 @@
-🥇 MIT License
+# 🥇 Licença Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional (CC BY-NC-SA 4.0)
 
-Copyright (c) 2025 Heviane Bastos
+Este projeto está licenciado sob a Licença **Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional**.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Você tem o direito de:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+* **Compartilhar** — copiar e redistribuir o material em qualquer suporte ou formato.
+* **Adaptar** — remixar, transformar e criar a partir do material.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+O licenciante não pode revogar estes direitos desde que você respeite os termos da licença.
+
+## Sob os seguintes termos:
+
+* **Atribuição (BY)** — Você deve dar o crédito apropriado, prover um link para a licença e indicar se foram feitas alterações. Você pode fazê-lo de qualquer maneira razoável, mas não de uma forma que sugira que o licenciante o apoia ou aprova o seu uso.
+* **NãoComercial (NC)** — Você não pode usar o material para fins comerciais.
+* **CompartilhaIgual (SA)** — Se você remixar, transformar ou criar a partir do material, você deve distribuir suas contribuições sob a mesma licença que o original.
+
+---
+
+Para ver uma cópia desta licença, visite [https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR)
