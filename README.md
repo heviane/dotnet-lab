@@ -24,7 +24,8 @@ Tipos de Projetos:
 ## Documentação e Links Úteis
 
 - [Requisitos para o ambiente de desenvolvimento em .NET](./Requirements.md)
-- [Entendendo o Arquivo de Solução (.sln)](./docs/solution-file-explained.md)
+- [Trilha de Aprendizagem .NET](./docs/dotnet-learning-plan.md) - Um guia passo a passo para seus estudos.
+- [Entendendo o Arquivo de Solução (.sln)](./docs/00-solution-file-explained.md)
 - [Changelog](./CHANGELOG.md) - Veja o histórico de alterações do projeto.
 - [Guia de Versionamento](./VERSIONING.md) - Entenda como as versões do projeto são gerenciadas.
 - [Documentação Oficial do .NET](https://docs.microsoft.com/dotnet/)
