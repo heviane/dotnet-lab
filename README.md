@@ -56,14 +56,14 @@ O projeto é organizado de forma a separar claramente a documentação do códig
 * **library**: Class Library (classlib)
 * **tests**: Test Project (xunit, nunit, mstest)
 
-## 📄 Documentação e Links Úteis
+## 📄 Documentações e Links Úteis
 
 * [Requisitos para o ambiente de desenvolvimento em .NET](./docs/requirements-guide.md)
 * [Entendendo o Arquivo de Solução (.sln)](./docs/solution-file-explained.md)
 * [Guia de Comandos .NET CLI](./docs/dotnet-cli-guide.md) - Uma referência rápida para os comandos mais úteis.
 * [Guia de Versionamento](./docs/versioning-guide.md) - Entenda como as versões do projeto são gerenciadas.
 
-## 📄 Documentações e Links Oficiais
+  ### 👀 References
 
-* [Documentação Oficial do .NET](https://docs.microsoft.com/dotnet/)
-* [Microsoft Learn](https://learn.microsoft.com/dotnet) - A plataforma oficial da Microsoft oferece trilhas de aprendizagem, tutoriais e documentação completa para todo o ecossistema .NET.
+  * [Documentação Oficial do .NET](https://docs.microsoft.com/dotnet/)
+  * [Microsoft Learn](https://learn.microsoft.com/dotnet) - A plataforma oficial da Microsoft oferece trilhas de aprendizagem, tutoriais e documentação completa para todo o ecossistema .NET.
