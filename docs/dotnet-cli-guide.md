@@ -1,4 +1,4 @@
-# Guia de Comandos .NET CLI
+# ⌨️ Guia: Comandos .NET CLI
 
 A **Interface de Linha de Comando (CLI) do .NET** é a principal ferramenta para criar, gerenciar, compilar e executar aplicações .NET diretamente do seu terminal. Ela é multiplataforma e essencial para um fluxo de trabalho de desenvolvimento moderno.
 
@@ -6,9 +6,9 @@ Este guia reúne os comandos mais úteis para a sua jornada de aprendizagem.
 
 ---
 
-## Gerenciamento de Projetos (`.csproj`)
+## 📂 Gerenciamento de Projetos (`.csproj`)
 
-Comandos para interagir diretamente com um projeto.
+Estes comandos são usados para interagir diretamente com um arquivo de projeto (`.csproj`).
 
 | Comando | Descrição |
 | :--- | :--- |
@@ -21,9 +21,9 @@ Comandos para interagir diretamente com um projeto.
 
 ---
 
-## Gerenciamento de Soluções (`.sln`)
+## 📦 Gerenciamento de Soluções (`.sln`)
 
-Comandos para gerenciar um arquivo de solução, que agrupa múltiplos projetos.
+Estes comandos são usados para gerenciar um arquivo de solução (`.sln`), que agrupa múltiplos projetos.
 
 | Comando | Descrição |
 | :--- | :--- |
@@ -34,9 +34,9 @@ Comandos para gerenciar um arquivo de solução, que agrupa múltiplos projetos.
 
 ---
 
-## Gerenciamento de Pacotes (NuGet)
+## 🧩 Gerenciamento de Pacotes (NuGet)
 
-Comandos para adicionar, remover e listar bibliotecas de terceiros (pacotes NuGet).
+Estes comandos são usados para adicionar, remover e listar bibliotecas de terceiros (pacotes NuGet) em um projeto.
 
 | Comando | Descrição |
 | :--- | :--- |
@@ -44,7 +44,7 @@ Comandos para adicionar, remover e listar bibliotecas de terceiros (pacotes NuGe
 | `dotnet remove package <PACOTE>` | Remove um pacote NuGet do projeto. |
 | `dotnet list package` | Lista todos os pacotes NuGet referenciados no projeto. |
 
-### Como Atualizar um Pacote?
+### ⬆️ Como Atualizar um Pacote?
 
 A CLI do .NET não possui um comando direto como `dotnet update`. A forma mais comum de atualizar um pacote é executando o comando `add` novamente, especificando a versão desejada:
 
@@ -60,12 +60,12 @@ Para verificar pacotes desatualizados, uma ferramenta muito popular na comunidad
 
 1. **Instalar a ferramenta (apenas uma vez):**
 
-    ```bash
+```bash
     dotnet tool install --global dotnet-outdated-tool
-    ```
+```
 
 2. **Verificar pacotes desatualizados no seu projeto:**
 
-    ```bash
+```bash
     dotnet outdated
-    ```
+ ```
