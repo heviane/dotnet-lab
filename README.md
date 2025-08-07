@@ -22,6 +22,14 @@ Para explorar os projetos e o conteúdo deste repositório, siga os passos abaix
 
 Um guia passo a passo para seus estudos. Ela foi desenhada para te guiar dos fundamentos até tópicos mais avançados de forma estruturada e prática.
 
+## 🤝 Como Contribuir
+
+Este é um projeto de código aberto e toda contribuição é bem-vinda! Se você tem interesse em ajudar, por favor, leia nosso [Guia de Contribuição](./CONTRIBUTING.md) para saber como começar.
+
+Para garantir um ambiente seguro e acolhedor para todos, pedimos que siga nosso [Código de Conduta](./CODE_OF_CONDUCT.md).
+
+---
+
 ## 📂 Estrutura do Repositório
 
 O projeto é organizado de forma a separar claramente a documentação do código-fonte, facilitando a navegação e a manutenção.
@@ -51,7 +59,6 @@ O projeto é organizado de forma a separar claramente a documentação do códig
 ## 📄 Documentação e Links Úteis
 
 * [Requisitos para o ambiente de desenvolvimento em .NET](./docs/requirements-guide.md)
-* [Trilha de Aprendizagem .NET](./docs/dotnet-learning-plan.md) - Um guia passo a passo para seus estudos.
 * [Entendendo o Arquivo de Solução (.sln)](./docs/solution-file-explained.md)
 * [Guia de Comandos .NET CLI](./docs/dotnet-cli-guide.md) - Uma referência rápida para os comandos mais úteis.
 * [Guia de Versionamento](./docs/versioning-guide.md) - Entenda como as versões do projeto são gerenciadas.
