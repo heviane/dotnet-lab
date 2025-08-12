@@ -29,11 +29,7 @@ Você pode executar este projeto de duas maneiras a partir do diretório raiz do
     dotnet run
     ```
 
-Ambos os comandos irão compilar e executar a aplicação, e você deverá ver a seguinte saída no seu terminal:
-
-```console
-Hello, World!
-```
+    Ambos os comandos irão compilar e executar a aplicação, e você deverá ver a seguinte saída no seu terminal: `Hello, World!`
 
 ## 📂 Estrutura do Projeto
 

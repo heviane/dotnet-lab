@@ -110,4 +110,14 @@ Com uma aplicação funcional, é hora de explorar o que mais o ecossistema .NET
 
 ## Recursos
 
-- O [Microsoft Learn](https://learn.microsoft.com/dotnet) é a sua principal fonte de estudo. A plataforma oficial da Microsoft oferece trilhas de aprendizagem, tutoriais e documentação completa para todo o ecossistema .NET.
+- [Microsoft Learn](https://learn.microsoft.com/dotnet) - Plataforma oficial da Microsoft com trilhas de aprendizagem, tutoriais e documentação completa para todo o ecossistema .NET.
+
+## Playgrounds Online
+
+- [Try .NET](https://dotnet.microsoft.com/en-us/platform/try-dotnet)
+- [.NET Fiddle](https://dotnetfiddle.net)
+- [replit](https://replit.com/languages/csharp)
+
+## Courses
+
+- [Foundational C# with Microsoft (curso e certificação)](https://www.freecodecamp.org/portuguese/learn/foundational-c-sharp-with-microsoft/)
