@@ -22,4 +22,3 @@ Durante o debug:
 - As mensagens são impressas ao sair da linha marcada/selecionada.
 - O simbolo "Seta amarela" mostra a linha que está executando atualmente.
     Pula as linhas que não forem executadas.
-

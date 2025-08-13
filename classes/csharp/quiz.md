@@ -96,3 +96,59 @@ Construir mensagens complexas com várias variáveis e literais.
     ```
 
     O resultado é o mesmo, mas o código fica mais limpo e legível, eliminando a necessidade de duplicar as barras invertidas. Por isso, essa é a prática preferida entre os desenvolvedores para lidar com caminhos de arquivo.
+
+- Quais das instruções a seguir devem ser usadas para sair de um for loop antes da iteração ser concluída?
+  - exit;
+  - break; (correto)
+  - return;
+
+- Um desenvolvedor precisa capturar a entrada do usuário dentro de um loop. O usuário insere a combinação ctrl + Esc de teclado para sair da iteração quando terminar de inserir informações. Qual é a melhor instrução de iteração para essa finalidade?
+  - while
+  - break
+    Incorreto. É possível usar a instrução for, mas a do-while permite que o código itere indefinidamente. O do-while itera até que o usuário insira a combinação de teclado especial e não é necessário uma instrução break para encerrar a iteração.
+  - do-while
+    Correto. O do-while permite que o desenvolvedor verifique cada entrada pelo usuário até que insira a combinação de teclado especial para sair.
+
+- Um desenvolvedor precisa iterar por meio de uma série de itens. O número de itens na matriz é desconhecido. O código dentro do bloco de código de iteração examina cada item sequencialmente para selecionar um item que corresponda aos critérios especificados. O número de índice do elemento de matriz selecionado não é importante. O item selecionado é referenciado várias vezes dentro do bloco de código. Qual tipo de instrução de iteração é mais adequado para esse cenário?
+  - foreach (correto)
+  - for
+  - while
+
+- Um desenvolvedor precisa capturar uma lista de itens do usuário. O usuário inserirá a combinação ctrl + Esc de teclado para sair. Qual é a melhor instrução de iteração para essa finalidade?
+  - foreach
+  - do-while (correto)
+  - while
+
+1. Quando é apropriado usar um constructo switch-case em vez de um constructo if-elseif-else?
+
+  Um switch-case constructo é apropriado quando mais de 2 a 3 else if blocos de código são necessários. **Correto**
+  Um switch-case constructo é apropriado quando o número de case padrões é pequeno.
+  Um switch-case constructo é apropriado quando a instrução de seleção está dentro de um loop.
+
+2. Por que um desenvolvedor deve escolher uma for instrução em vez de uma foreach instrução ao processar o conteúdo de uma matriz multidimensional?
+
+  As instruções for fazem um trabalho melhor ao examinar cada item da matriz separadamente.
+  As instruções foreach fazem um trabalho melhor ao examinar cada item da matriz separadamente.
+  for as instruções permitem que um desenvolvedor trate as dimensões da matriz separadamente. **correto**
+
+3. Por que é importante definir o escopo de uma variável no nível mais baixo necessário?
+
+  Ele garante que uma variável declarada fora de um bloco de código possa ser acessada dentro do bloco de código antes de receber um valor.
+  Isso garante que os recursos do aplicativo e o volume de segurança sejam mantidos pequenos. **correto**
+  Isso garante que uma variável possa ser acessada dentro dos blocos de código de nível mais baixo de um aplicativo.
+
+1. O que é um objeto?
+  Um endereço de memória.
+  Uma classe sem estado.
+  Uma instância de uma classe. **Correct**
+
+2. Qual das seguintes afirmações é verdadeira?
+
+  A Biblioteca de Classes do .NET sempre define métodos sobrecarregados para cada método.
+  A Biblioteca de Classes do .NET contém definições para tipos de dados usados no C#. **Correct**
+  A biblioteca de classes do .NET inclui tantas classes que, na verdade, aumenta o tempo de desenvolvimento.
+
+3. Quais dos símbolos a seguir representam o operador de invocação de método necessário para executar um método?
+  .
+  {}
+  () **Correct**

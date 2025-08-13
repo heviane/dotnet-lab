@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/src/console/HelloWorld/bin/Debug/net9.0/HelloWorld.dll",
+            "program": "${workspaceFolder}/src/console/Launcher/bin/Debug/net9.0/Launcher.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/src/console/HelloWorld",
+            "cwd": "${workspaceFolder}/src/console/Launcher",
             "stopAtEntry": false,
             "console": "internalConsole"
         },

@@ -2,15 +2,14 @@
 
 /*
     Um projeto C# só pode ter um único ponto de entrada.
-
     Quando você escreve código diretamente em um arquivo .cs sem envolvê-lo em uma classe com um método Main,
     o compilador do C# assume que aquele arquivo é o ponto de entrada do programa.
-
     Código solto é o que chamamos de "instruções de nível superior" ou top-level statements.
 */
 
 
 // -------------------- Challenge - if-else-elseif
+/*
 Random random = new Random();
 int daysUntilExpiration = random.Next(20);
 int discountPercentage = 0;
@@ -42,8 +41,10 @@ if (discountPercentage > 0)
 {
     Console.WriteLine($"Renew now and save {discountPercentage}%.");
 }
+*/
 
 // -------------------- Challenge - if-else-elseif
+/*
 string permission = "Admin|Manager";
 int level = 53;
 
@@ -73,6 +74,7 @@ else
 {
     Console.WriteLine("You do not have sufficient privileges.");
 }
+*/
 
 // -------------------- Challenge - Arrays
 /*
@@ -84,6 +86,7 @@ fraudulentOrderIDs[2] = "C789";
 // fraudulentOrderIDs[3] = "D000";  // Error: Index was outside the bounds of the array
 */
 
+/*
 // Initializing an array with a collection initializer
 string[] fraudulentOrderIDs = ["A123", "B456", "C789"];
 
@@ -95,8 +98,10 @@ fraudulentOrderIDs[0] = "F000"; // Reassigning the first element
 
 Console.WriteLine($"Reassign First: {fraudulentOrderIDs[0]}");
 Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to process.");
+*/
 
 // -------------------- Challenge - Arrays + foreach
+/*
 int[] inventory = { 200, 450, 700, 175, 250 };
 int sum = 0;
 int bin = 0;
@@ -118,6 +123,7 @@ foreach (string orderID in orderIDs)
         Console.WriteLine(orderID);
     }
 }
+*/
 
 // -------------------- Challenge - Arrays + foreach
 /*
@@ -125,7 +131,7 @@ foreach (string orderID in orderIDs)
    a particular character appears, then prints the results
    to the console window.
  */
-
+/*
 string originalMessage = "The quick brown fox jumps over the lazy dog.";
 
 char[] message = originalMessage.ToCharArray();
@@ -145,8 +151,10 @@ string newMessage = new String(message);
 
 Console.WriteLine(newMessage);
 Console.WriteLine($"'o' appears {letterCount} times.");
+*/
 
 // -------------------- Challenge - Operadores
+/*
 // Operador de igualdade (==)
 Console.WriteLine("a" == "a");
 Console.WriteLine("a" == "A");
@@ -184,12 +192,15 @@ Console.WriteLine(a != b); // output: True
 string s1 = "Hello";
 string s2 = "Hello";
 Console.WriteLine(s1 != s2); // output: False
+*/
 
 // -------------------- Challenge - Operador ternário
+/*
 int saleAmount = 1001;
 int discount = saleAmount > 1000 ? 100 : 50;
 Console.WriteLine($"Discount: {discount}");
 Console.WriteLine($"Discount: {(saleAmount > 1000 ? 100 : 50)}");
+*/
 
 // -------------------- Challenge - blocos de código e escopo de variaveis
 // EX 1
@@ -204,6 +215,7 @@ if (flag)
 */
 
 // EX 2
+/*
 bool flag = true;
 int value = 0;
 
@@ -214,6 +226,7 @@ if (flag)
 
 value = 10;
 Console.WriteLine($"Outside the code block: {value}");
+*/
 
 //-------------------- Challenge - Blocos de código e escopo de variáveis
 // Before
@@ -328,6 +341,7 @@ Console.WriteLine($"Product: {size} {color} {type}");
 */
 
 // -------------------- Challenge - refatorar o código acima usando switch case
+/*
 // SKU = Stock Keeping Unit
 string sku = "01-MN-L";
 
@@ -383,10 +397,10 @@ switch (product[2])
 }
 
 Console.WriteLine($"Product: {size} {color} {type}");
-
-
+*/
 
 // -------------------- Challenge - Conversão de tipos
+/*
 // Conversão implícita (implicit conversion)
 int number1 = 12345;
 long bigNumber = number1; // int para long (int é menor que long)
@@ -406,27 +420,31 @@ Console.WriteLine(number3);
 int number4 = int.Parse("44");
 Console.WriteLine(number4);
 
+int number5 = 5;
+string numberString = number5.ToString();
+Console.WriteLine(numberString);
+*/
+
 /*
     Diferença entre Convert.ToInt32 e int.TryParse e int.Parse:
     - Tratamento de valores nulos.
         - SE Convert.ToInt32 e int.TryParse recebem um valor nulo, ele converte para 0.
         - SE int.Parse recebe um valor nulo, ele lança um erro de compilação.
 
-    É mais recomendado usar a classe Convert ou o método TryParse().
+    É mais recomendado usar o método TryParse() para uma conversão segura
 */
 
-int number5 = 5;
-string numberString = number5.ToString();
-Console.WriteLine(numberString);
-
 // -------------------- Challenge - Valores máximos dos tipos numéricos
+/*
 Console.WriteLine("int: " + int.MaxValue);
 Console.WriteLine("long: " + long.MaxValue);
 Console.WriteLine("float: " + float.MaxValue);
 Console.WriteLine("double: " + double.MaxValue);
 Console.WriteLine("decimal: " + decimal.MaxValue);
+*/
 
 // -------------------- Challenge - switch case com entrada de dados pelo usuário
+/*
 Console.WriteLine("Enter a number between 1 and 5:");
 string input = Console.ReadLine();
 int number = int.TryParse(input, out int parsedNumber) ? parsedNumber : 0;
@@ -452,3 +470,60 @@ switch (number)
         Console.WriteLine("Invalid number   (1-5).");
         break;
 }
+*/
+
+// -------------------- Challenge - Loop for
+/*
+for (int i = 0; i < 5; i++)
+{
+    Console.WriteLine($"O valor de i é: {i}");
+}
+
+for (int i = 1; i < 101; i++)
+{
+    if ((i % 3 == 0) && (i % 5 == 0))
+        Console.WriteLine($"{i} - FizzBuzz");
+    else if (i % 3 == 0)
+        Console.WriteLine($"{i} - Fizz");
+    else if (i % 5 == 0)
+        Console.WriteLine($"{i} - Buzz");
+    else
+        Console.WriteLine($"{i}");
+}
+*/
+
+// -------------------- Challenge - Loop while
+
+// -------------------- Challenge - Loop do while
+
+// EX 1
+Random random = new Random();
+int current = 0;
+
+do
+{
+    current = random.Next(1, 11);
+    Console.WriteLine(current);
+} while (current != 7);
+
+// EX 2
+int hero = 10;
+int monster = 10;
+
+Random dice = new Random();
+
+do
+{
+    int roll = dice.Next(1, 11);
+    monster -= roll;
+    Console.WriteLine($"Monster was damaged and lost {roll} health and now has {monster} health.");
+
+    if (monster <= 0) continue;
+
+    roll = dice.Next(1, 11);
+    hero -= roll;
+    Console.WriteLine($"Hero was damaged and lost {roll} health and now has {hero} health.");
+
+} while (hero > 0 && monster > 0);
+
+Console.WriteLine(hero > monster ? "Hero wins!" : "Monster wins!");

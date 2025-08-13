@@ -19,6 +19,25 @@ Usados para realizar operações matemáticas.
 * `++` (Incremento): `x++`
 * `--` (Decremento): `x--`
 
+Também podemos usar a classe `Math` da biblioteca do .NET para realizarmos operações matemáticas. por exemplo:
+
+* `Math.Abs(x)` (Valor absoluto)
+* `Math.Sqrt(x)` (Raiz quadrada)
+* `Math.Pow(x, y)` (Potência)
+* `Math.Log(x)` (Logaritmo natural)
+* `Math.Log10(x)` (Logaritmo na base 10)
+* `Math.Sin(x)` (Seno)
+* `Math.Cos(x)` (Cosseno)
+* `Math.Tan(x)` (Tangente)
+* `Math.Round(x)` (Arredonda para o inteiro mais próximo)
+* `Math.Floor(x)` (Arredonda para baixo)
+* `Math.Ceil(x)` (Arredonda para cima)
+* `Math.Max(x, y)` (Retorna o maior valor entre `x` e `y`)
+* `Math.Min(x, y)` (Retorna o menor valor entre `x` e `y`)
+* `Math.Random()` (Gera um número aleatório entre 0 e 1)
+* `Math.PI` (Número pi)
+* `Math.E` (Número de Euler)
+
 ---
 
 ## 2. Operadores de Atribuição
