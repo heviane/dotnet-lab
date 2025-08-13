@@ -41,11 +41,11 @@ O projeto é organizado de forma a separar claramente a documentação do códig
 ├── 📚 docs/                     # Guias, anotações e materiais de estudo.
 │
 └── 💻 src/                      # Projetos e aplicações práticas.
-    ├── console/                # Aplicações de linha de comando (Console)
-    ├── api/                    # APIs RESTful com ASP.NET Core (Web API)
-    ├── app/                    # Aplicações Web com UI (MVC/Razor Pages)
-    ├── library/                # Bibliotecas de código reutilizável (Class Library)
-    └── tests/                  # Projetos de testes automatizados (xUnit, etc.)
+    ├── console/                 # Aplicações de linha de comando (Console)
+    ├── api/                     # APIs RESTful com ASP.NET Core (Web API)
+    ├── app/                     # Aplicações Web com UI (MVC/Razor Pages)
+    ├── library/                 # Bibliotecas de código reutilizável (Class Library)
+    └── tests/                   # Projetos de testes automatizados (xUnit, etc.)
 ```
 
 ### 💻 Tipos de Projetos
