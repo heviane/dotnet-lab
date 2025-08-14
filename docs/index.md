@@ -1,6 +1,6 @@
 # 📚 Guias, anotações e materiais de estudo
 
-Bem-vindo à pasta `docs`, o centro de conhecimento e a base de documentação para o repositório **Laboratório de Estudos .NET [https://github.com/heviane/dotnet-lab](https://github.com/heviane/dotnet-lab)**
+Bem-vindo à pasta `docs`, o centro de conhecimento e a base de documentação para o **Laboratório de Estudos .NET**
 
 ## 🎯 Objetivo
 
