@@ -34,34 +34,6 @@ theme:
 # É uma boa prática definir explicitamente o diretório dos documentos.
 docs_dir: docs
 
-nav:
-  - "Início": index.md
-  - "Guias de Projetos":
-    - "Requisitos de Ambiente": guides/requirements-guide.md
-    - "Guia de Comandos .NET CLI": guides/dotnet-cli-guide.md
-    - "Guia de Versionamento": guides/versioning-guide.md
-  - "Guias de Estudos":
-    - "Trilha de Aprendizagem": courses/index.md
-  - ".NET":
-    - "Introdução": courses/dotnet/introduction.md
-    - "Anatomia de um Projeto (.csproj)": courses/dotnet/project-structure.md
-    - "Arquivo de Solução (.sln)": courses/dotnet/solution-file-explained.md
-  - "C# Fundamentos":
-    - "Tipos de Dados": courses/csharp/fundamental/datatype.md
-    - "Variáveis": courses/csharp/fundamental/variable.md
-    - "Expressões": courses/csharp/fundamental/expressions.md
-    - "Estruturas de Controle": courses/csharp/fundamental/control-structures.md
-    - "Escopo de Variáveis": courses/csharp/fundamental/scope-of-variables.md
-    - "Manipulação de Strings": courses/csharp/fundamental/string-manipulation.md
-    - "Manipulação de Arquivos": courses/csharp/fundamental/file-handling.md
-  - "C# (Programação Orientada a Objetos)":
-    - "Classes": courses/csharp/oop/classes.md
-    - "Objetos": courses/csharp/oop/objects.md
-    - "Herança": courses/csharp/oop/inheritance.md
-    - "Polimorfismo": courses/csharp/oop/polymorphism.md
-    - "Encapsulamento": courses/csharp/oop/encapsulation.md
-    - "Abstração": courses/csharp/oop/abstraction.md
-    - "Interfaces": courses/csharp/oop/interfaces.md
-    - "Classes Abstratas": courses/csharp/oop/abstract-classes.md
-    - "Métodos e Funções": courses/csharp/oop/methods-and-functions.md
-
+plugins:
+  - search
+  - awesome-pages
