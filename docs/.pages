@@ -1,6 +1,6 @@
-title: Início
+title: Home
 nav:
-  - Início: index.md
+  - Home: index.md
   - Guias de Projetos: guides
   - Guias de Estudos: courses
   - ...
