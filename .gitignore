@@ -63,5 +63,3 @@ project.assets.json
 secrets.json
 appsettings.Development.json
 
-# Project-specific files
-/temp
