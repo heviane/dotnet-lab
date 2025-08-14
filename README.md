@@ -2,6 +2,15 @@
 
 Bem-vindo(a) ao meu laboratório de estudos .NET! Este repositório serve como um diário de bordo para o meu aprendizado e aprofundamento na plataforma .NET, documentando projetos, anotações e exemplos práticos.
 
+- [🧪 Laboratório de Estudos .NET](#-laboratório-de-estudos-net)
+  - [🚀 Como Começar](#-como-começar)
+  - [📚 Documentação](#-documentação)
+  - [🤝 Como Contribuir](#-como-contribuir)
+  - [📂 Estrutura do Repositório](#-estrutura-do-repositório)
+  - [👥 Contribuidores](#-contribuidores)
+  - [🥇 Licença](#-licença)
+  - [💬 Contato](#-contato)
+
 ## 🚀 Como Começar
 
 Para explorar os projetos e o conteúdo deste repositório, siga os passos abaixo:
@@ -64,7 +73,7 @@ Agradecemos a todos que contribuíram para este projeto.
 Este projeto está licenciado sob a Licença **Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional**.
 Veja a [Licença do Projeto](./LICENSE.md) para mais informações.
 
-## Contato
+## 💬 Contato
 
 <div align="left">
   <a href="https://www.linkedin.com/in/hevianebastos" target="_blank">
