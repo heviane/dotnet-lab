@@ -1,0 +1,47 @@
+site_name: 🧪 Laboratório de Estudos .NET
+site_url: https://heviane.github.io/dotnet-lab/
+repo_url: https://github.com/heviane/dotnet-lab
+repo_name: heviane/dotnet-lab
+edit_uri: edit/main/
+
+theme:
+  name: material
+  language: pt
+  palette:
+    # Palette toggle for light vs dark mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+    # Palette toggle for dark vs light mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+nav:
+  - "Início": "index.md"
+  - "Guias do Projeto":
+      - "Visão Geral": "docs/README.md"
+      - "Requisitos": "docs/requirements-guide.md"
+      - "Guia de Versionamento": "docs/versioning-guide.md"
+      - "Arquivo de Solução (.sln)": "docs/solution-file-explained.md"
+      - "Guia .NET CLI": "docs/dotnet-cli-guide.md"
+      - "Aplicações de Console": "docs/console/README.md"
+  - "Cursos e Anotações":
+      - "Conceitos Gerais de Programação": "courses/conceitos-gerais-programacao.md"
+      - "C#":
+          - "Fundamentos": "courses/csharp/fundamentos/notes.md"
+          - "Quiz": "classes/csharp/quiz.md"
