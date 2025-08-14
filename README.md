@@ -4,9 +4,9 @@ Bem-vindo(a) ao meu laboratório de estudos .NET! Este repositório serve como u
 
 - [🧪 Laboratório de Estudos .NET](#-laboratório-de-estudos-net)
   - [🚀 Como Começar](#-como-começar)
-  - [📚 Documentação](#-documentação)
   - [🤝 Como Contribuir](#-como-contribuir)
   - [📂 Estrutura do Repositório](#-estrutura-do-repositório)
+  - [📚 Documentação](#-documentação)
   - [👥 Contribuidores](#-contribuidores)
   - [🥇 Licença](#-licença)
   - [💬 Contato](#-contato)
@@ -34,12 +34,6 @@ TODO: Inserir esta info no site de documentação gerado pelo MkDocs
 Um guia passo a passo para seus estudos. Ela foi desenhada para te guiar dos fundamentos até tópicos mais avançados de forma estruturada e prática.
 -->
 
-## 📚 Documentação
-
-Toda a documentação detalhada, guias, anotações de estudo e explicações conceituais estão centralizadas em nosso site de documentação, gerado com MkDocs.
-
-➡️ **[Acesse a Documentação Completa](https://heviane.github.io/dotnet-lab/)**
-
 ## 🤝 Como Contribuir
 
 Este é um projeto de código aberto e toda contribuição é bem-vinda! Se você tem interesse em ajudar, por favor, leia nosso [Guia de Contribuição](./CONTRIBUTING.md) para saber como começar.
@@ -58,9 +52,19 @@ O projeto é organizado de forma a separar claramente a documentação do códig
     ├── console/                 # Aplicações de linha de comando (Console)
     ├── api/                     # APIs RESTful com ASP.NET Core (Web API)
     ├── app/                     # Aplicações Web com UI (MVC/Razor Pages)
+    ├── blazor/                  # Aplicações Web interativas com Blazor
+    ├── console/                 # Aplicações de linha de comando (Console)
     ├── library/                 # Bibliotecas de código reutilizável (Class Library)
+    ├── maui/                    # Aplicações nativas (Desktop/Mobile) com .NET MAUI
     └── tests/                   # Projetos de testes automatizados (xUnit, etc.)
+    └── worker/                  # Serviços de background e tarefas agendadas
 ```
+
+## 📚 Documentação
+
+Toda a documentação detalhada, guias, anotações de estudo e explicações conceituais estão centralizadas em nosso site de documentação, gerado com MkDocs.
+
+➡️ **[Acesse a Documentação Completa](https://heviane.github.io/dotnet-lab/)**
 
 ## 👥 Contribuidores
 
