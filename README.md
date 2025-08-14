@@ -15,7 +15,8 @@ Bem-vindo(a) ao meu laboratório de estudos .NET! Este repositório serve como u
 
 Para explorar os projetos e o conteúdo deste repositório, siga os passos abaixo:
 
-1. **Configure seu ambiente:** Garanta que todos os pré-requisitos estão instalados, seguindo nosso 📄 [guia de requisitos](./docs/requirements-guide.md).
+1. **Configure seu ambiente:** Garanta que todos os pré-requisitos estão instalados, seguindo nosso 📄 [guia de requisitos](./docs/guides/requirements-guide.md).
+
 2. **Clone o repositório:**
 
 ```bash
