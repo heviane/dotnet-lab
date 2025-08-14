@@ -23,6 +23,8 @@ A documentação está organizada em guias e anotações que cobrem diferentes a
 
 ## 🤝 Como Contribuir
 
-A documentação é um organismo vivo e está sempre em evolução. Se você encontrar informações desatualizadas, erros de digitação ou sentir que algo pode ser explicado de forma mais clara, sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*.
+A documentação é um organismo vivo e está sempre em evolução. Se você encontrar informações desatualizadas, erros de digitação ou sentir que algo pode ser explicado de forma mais clara, sinta-se à vontade para abrir uma ***issue*** ou enviar um ***pull request***.
+
+Consulte o [CONTRIBUTING.md](../../CONTRIBUTING.md) para orientações detalhadas sobre como contribuir.
 
 Manter a documentação precisa e atualizada é uma responsabilidade de todos que utilizam este repositório.

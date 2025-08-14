@@ -82,7 +82,7 @@ Veja a [Licença do Projeto](./LICENSE.md) para mais informações.
 ## Contato
 
 Heviane Bastos: `+55 (51) 99855-1866` / `heviane@gmail.com`
-Project Link: https://github.com/heviane-studies/dotnet-lab
+Project Link: https://github.com/heviane/dotnet-lab
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url]

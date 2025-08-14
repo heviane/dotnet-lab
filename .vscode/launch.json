@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Debug: HelloWorld",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // Caminho para a DLL de saída do projeto HelloWorld
+            "program": "${workspaceFolder}/src/console/Apps/HelloWorld/bin/Debug/net9.0/HelloWorld.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/console/Apps/HelloWorld",
+            "stopAtEntry": false,
+            // Esta é a linha chave! Ela executa o app no terminal integrado,
+            // permitindo que você digite valores com Console.ReadLine().
+            "console": "integratedTerminal"
+        },
+        {
             "name": ".NET Core Launch (console)",
             "type": "coreclr",
             "request": "launch",
@@ -13,7 +27,7 @@
             "args": [],
             "cwd": "${workspaceFolder}/src/console/Launcher",
             "stopAtEntry": false,
-            "console": "internalConsole"
+            "console": "integratedTerminal"
         },
         {
             "name": ".NET Core Attach",

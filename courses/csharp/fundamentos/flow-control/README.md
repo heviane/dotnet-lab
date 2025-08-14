@@ -126,6 +126,19 @@ A estrutura `switch` avalia uma expressão e a compara com vários "casos" poss�
     } while (numero < 5); // A condição é falsa, mas o loop foi executado uma vez.
     ```
 
+    ```csharp
+    int numero;
+
+    do
+    {
+        Console.Write("Digite um número (0 para sair): ");
+        numero = int.Parse(Console.ReadLine());
+        Console.WriteLine($"Você digitou: {numero}");
+    } while (numero != 0);
+    ```
+
+    `Console.ReadLine()` funciona no terminal de debug do VSCode?
+
 -----
 
 ## Estruturas de Salto
@@ -149,7 +162,7 @@ A estrutura `switch` avalia uma expressão e a compara com vários "casos" poss�
 
     -----
 
-    #### `continue`
+### `continue`
 
     O comando `continue` pula o restante do código da iteração atual e avança para a próxima iteração do loop.
 

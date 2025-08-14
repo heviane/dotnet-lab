@@ -497,6 +497,7 @@ for (int i = 1; i < 101; i++)
 // -------------------- Challenge - Loop do while
 
 // EX 1
+/*
 Random random = new Random();
 int current = 0;
 
@@ -505,8 +506,10 @@ do
     current = random.Next(1, 11);
     Console.WriteLine(current);
 } while (current != 7);
+*/
 
 // EX 2
+/*
 int hero = 10;
 int monster = 10;
 
@@ -527,3 +530,32 @@ do
 } while (hero > 0 && monster > 0);
 
 Console.WriteLine(hero > monster ? "Hero wins!" : "Monster wins!");
+*/
+
+int numero = 0, soma = 0;
+
+do
+{
+    Console.Write("Digite um número (0 para sair): ");
+    numero = int.TryParse(Console.ReadLine(), out int result) ? result : 0;
+    soma += numero;
+    Console.WriteLine($"Você digitou: {numero}");
+} while (numero != 0);
+
+Console.WriteLine($"A soma dos números digitados é: {soma}");
+
+/*
+    `Console.ReadLine()` não funciona no terminal de debug do Visual Studio Code.
+
+    1. No arquivo `launch.json` na pasta .vscode
+    2. Substitua
+        "console": "internalConsole"
+    por
+        "console": "integratedTerminal"
+
+
+
+
+    ..... Ver
+    Use `Console.ReadKey()` para capturar a entrada do usuário.
+*/

@@ -13,18 +13,8 @@ class LauncherApp
     /// </summary>
     static void Main(string[] args)
     {
-        // Define a lista de projetos que o Launcher pode executar.
-        // Os caminhos são relativos ao diretório do projeto Launcher.
-        var projects = new List<Project>
-        {
-            new Project("Hello World", "../HelloWorld/HelloWorld.csproj"),
-            new Project("Calculadora", "../Apps/Calculator/Calculator.csproj"),
-
-            // ... Revisar e melhorar os projetos abaixos ...
-            new Project("Desafios de Loops", "../Loops/Loops.csproj"),
-            new Project("Estudos de Classes", "../Classes/Classes.csproj")
-            // Adicione novos projetos aqui........................
-        };
+        // Descobre os projetos dinamicamente, lendo os diretórios.
+        var projects = DiscoverProjects();
 
         while (true)
         {
@@ -61,6 +51,28 @@ class LauncherApp
                 Console.ReadKey();
             }
         }
+    }
+
+    /// <summary>
+    /// Descobre projetos de console na pasta Apps dinamicamente.
+    /// </summary>
+    /// <returns>Uma lista de projetos encontrados.</returns>
+    static List<Project> DiscoverProjects()
+    {
+        var launcherPath = AppDomain.CurrentDomain.BaseDirectory;
+        var appsPath = Path.GetFullPath(Path.Combine(launcherPath, "..", "..", "Apps"));
+
+        if (!Directory.Exists(appsPath))
+        {
+            return new List<Project>();
+        }
+
+        return Directory.GetFiles(appsPath, "*.csproj", SearchOption.AllDirectories)
+                        .Select(proj => new Project(
+                            Name: Path.GetFileNameWithoutExtension(proj),
+                            Path: Path.GetRelativePath(launcherPath, proj)))
+                        .OrderBy(p => p.Name)
+                        .ToList();
     }
 
     /// <summary>

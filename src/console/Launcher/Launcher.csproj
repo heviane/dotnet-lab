@@ -1,9 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <ProjectReference Include="..\Apps\HelloWorld\HelloWorld.csproj" />
     <ProjectReference Include="..\Apps\Calculator\Calculator.csproj" />
-    <ProjectReference Include="..\Loops\Loops.csproj" />
-    <ProjectReference Include="..\Classes\Classes.csproj" />
+    <ProjectReference Include="..\Apps\Loops\Loops.csproj" />
+    <ProjectReference Include="..\Apps\Classes\Classes.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

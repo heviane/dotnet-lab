@@ -60,7 +60,8 @@ public static class LoopsApp
                 roleName = readResult.Trim();
             }
 
-            if (roleName.ToLower() == "administrator" || roleName.ToLower() == "manager" || roleName.ToLower() == "user")
+            string normalizedRole = roleName.ToLower();
+            if (normalizedRole == "administrator" || normalizedRole == "manager" || normalizedRole == "user")
             {
                 validEntry = true;
             }
