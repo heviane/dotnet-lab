@@ -1,4 +1,4 @@
-# ⌨️ Guia: Comandos .NET CLI
+# ⌨️ Guia para Comandos .NET CLI
 
 A **Interface de Linha de Comando (CLI) do .NET** é a principal ferramenta para criar, gerenciar, compilar e executar aplicações .NET diretamente do seu terminal. Ela é multiplataforma e essencial para um fluxo de trabalho de desenvolvimento moderno.
 

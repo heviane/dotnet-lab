@@ -1,4 +1,4 @@
-# 🏷️ Guia de Versionamento
+# 🏷️ Guia para Versionamento
 
 Este documento descreve como o versionamento é aplicado neste projeto de estudos, seguindo as diretrizes do **[Versionamento Semântico 2.0.0](https://semver.org/lang/pt-BR/)**.
 

@@ -36,19 +36,9 @@ docs_dir: docs
 
 nav:
   - "Início": index.md
-  - "Guias do Projeto":
-      - "Trilha de Aprendizagem .NET": dotnet-learning-plan.md
+  - "Guias de Projetos":
       - "Requisitos": requirements-guide.md
-      - "Guia de Versionamento": versioning-guide.md
-      - "Arquivo de Solução (.sln)": solution-file-explained.md
-      - "Guia .NET CLI": dotnet-cli-guide.md
+      - ".NET CLI": dotnet-cli-guide.md
+      - "Versionamento": versioning-guide.md
   - "Cursos e Anotações":
       - "Conceitos Gerais": courses/conceitos-gerais-programacao.md
-  - "CSharp":
-    - "Introdução": courses/csharp/README.md
-    - "Fundamentos":
-      - "Visão Geral": courses/csharp/fundamentos/README.md
-      - "Variáveis e Tipos": courses/csharp/fundamentos/variaveis-e-tipos/README.md
-      - "Operadores": courses/csharp/fundamentos/operadores/README.md
-      - "Estruturas de Controle": courses/csharp/fundamentos/estruturas-de-controle/README.md
-      - "Métodos": courses/csharp/fundamentos/metodos/README.md
