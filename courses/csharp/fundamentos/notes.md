@@ -30,3 +30,9 @@
 - **string verbatim**, prefixada com o símbolo `@`.
 Uma string verbatim ignora todas as sequências de escape, tratando cada caractere como um literal.
 - conversão de tipo implícita e explícita
+
+## References
+
+Links para pesquisar e descobrir...
+
+- [https://www.mkdocs.org](https://www.mkdocs.org)
