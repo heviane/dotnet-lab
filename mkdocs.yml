@@ -37,9 +37,9 @@ docs_dir: docs
 nav:
   - "Início": index.md
   - "Guias de Projetos":
-      - "Requisitos de Ambiente": requirements-guide.md
+      - "Requisitos de Ambiente": guides/requirements-guide.md
       - "Guia de Comandos .NET CLI": guides/dotnet-cli-guide.md
-      - "Guia de Versionamento": versioning-guide.md
+      - "Guia de Versionamento": guides/versioning-guide.md
   - "Cursos e Anotações":
       - "Conceitos Gerais": courses/conceitos-gerais-programacao.md
       - "Trilha de Aprendizagem": courses/dotnet-learning-plan.md
