@@ -45,5 +45,5 @@ nav:
   - "Cursos e Anotações":
       - "Conceitos Gerais": courses/conceitos-gerais-programacao.md
       - "CSharp":
-        - "Fundamentos": courses/charp/fundamentos/README.md
-
+        - "Introdução": courses/csharp/README.md
+        - "Fundamentos": courses/csharp/fundamentos/README.md
