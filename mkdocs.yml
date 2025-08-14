@@ -2,7 +2,7 @@ site_name: 🧪 Laboratório de Estudos .NET
 site_url: https://heviane.github.io/dotnet-lab/
 repo_url: https://github.com/heviane/dotnet-lab
 repo_name: heviane/dotnet-lab
-edit_uri: edit/main/
+edit_uri: edit/main/docs/ # Ajuste para apontar para a pasta de documentação
 
 theme:
   name: material
@@ -31,17 +31,19 @@ theme:
     - content.code.copy
     - content.code.annotate
 
+# É uma boa prática definir explicitamente o diretório dos documentos.
+docs_dir: docs
+
 nav:
-  - "Início": "index.md"
+  - "Início": index.md
   - "Guias do Projeto":
-      - "Visão Geral": "docs/README.md"
-      - "Requisitos": "docs/requirements-guide.md"
-      - "Guia de Versionamento": "docs/versioning-guide.md"
-      - "Arquivo de Solução (.sln)": "docs/solution-file-explained.md"
-      - "Guia .NET CLI": "docs/dotnet-cli-guide.md"
-      - "Aplicações de Console": "docs/console/README.md"
-  - "Cursos e Anotações":
-      - "Conceitos Gerais de Programação": "courses/conceitos-gerais-programacao.md"
-      - "C#":
-          - "Fundamentos": "courses/csharp/fundamentos/notes.md"
-          - "Quiz": "classes/csharp/quiz.md"
+      - "Trilha de Aprendizagem .NET": dotnet-learning-plan.md
+      - "Requisitos": requirements-guide.md
+      - "Guia de Versionamento": versioning-guide.md
+      - "Arquivo de Solução (.sln)": solution-file-explained.md
+      - "Guia .NET CLI": dotnet-cli-guide.md
+      - "Cursos e Anotações":
+          - "Conceitos Gerais": courses/conceitos-gerais-programacao.md
+          - "C#":
+              - "Fundamentos": courses/charp/fundamentos/README.md
+

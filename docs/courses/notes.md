@@ -31,8 +31,12 @@
 Uma string verbatim ignora todas as sequências de escape, tratando cada caractere como um literal.
 - conversão de tipo implícita e explícita
 
-## References
+## Mkdocs
 
 Links para pesquisar e descobrir...
 
 - [https://www.mkdocs.org](https://www.mkdocs.org)
+
+### Meu Mkdocs com GitHub Pages
+
+- [https://heviane.github.io/dotnet-lab/](https://heviane.github.io/dotnet-lab/)
