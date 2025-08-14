@@ -41,8 +41,7 @@ nav:
       - "Guia de Comandos .NET CLI": guides/dotnet-cli-guide.md
       - "Guia de Versionamento": guides/versioning-guide.md
   - "Cursos e Anotações":
-      - "Conceitos Gerais": courses/conceitos-gerais-programacao.md
-      - "Trilha de Aprendizagem": courses/dotnet-learning-plan.md
+      - "Trilha de Aprendizagem": courses/index.md
       - ".NET":
           - "Arquivo de Solução (.sln)": courses/dotnet/solution-file-explained.md
       - "C# (POO)":
