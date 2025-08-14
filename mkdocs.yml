@@ -42,8 +42,8 @@ nav:
       - "Guia de Versionamento": versioning-guide.md
       - "Arquivo de Solução (.sln)": solution-file-explained.md
       - "Guia .NET CLI": dotnet-cli-guide.md
-      - "Cursos e Anotações":
-          - "Conceitos Gerais": courses/conceitos-gerais-programacao.md
-          - "C#":
-              - "Fundamentos": courses/charp/fundamentos/README.md
+  - "Cursos e Anotações":
+      - "Conceitos Gerais": courses/conceitos-gerais-programacao.md
+      - "CSharp":
+        - "Fundamentos": courses/charp/fundamentos/README.md
 
