@@ -44,6 +44,11 @@ nav:
       - "Guia .NET CLI": dotnet-cli-guide.md
   - "Cursos e Anotações":
       - "Conceitos Gerais": courses/conceitos-gerais-programacao.md
-      - "CSharp":
-        - "Introdução": courses/csharp/README.md
-        - "Fundamentos": courses/csharp/fundamentos/README.md
+  - "CSharp":
+    - "Introdução": courses/csharp/README.md
+    - "Fundamentos":
+      - "Visão Geral": courses/csharp/fundamentos/README.md
+      - "Variáveis e Tipos": courses/csharp/fundamentos/variaveis-e-tipos/README.md
+      - "Operadores": courses/csharp/fundamentos/operadores/README.md
+      - "Estruturas de Controle": courses/csharp/fundamentos/estruturas-de-controle/README.md
+      - "Métodos": courses/csharp/fundamentos/metodos/README.md
