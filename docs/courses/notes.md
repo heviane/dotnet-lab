@@ -40,3 +40,14 @@ Links para pesquisar e descobrir...
 ### Meu Mkdocs com GitHub Pages
 
 - [https://heviane.github.io/dotnet-lab/](https://heviane.github.io/dotnet-lab/)
+
+MkDocs é uma ferramenta que transforma arquivos de texto simples, escritos em Markdown (.md), em um site de documentação com aparência profissional.
+
+Pense nele como um "construtor de sites" para documentação. Em vez de escrever HTML e CSS complexos, você foca no conteúdo em Markdown, e o MkDocs cuida de todo o resto, gerando um site estático, rápido e fácil de hospedar em qualquer lugar (como o GitHub Pages).
+
+Em resumo:
+
+Entrada: Arquivos de texto em Markdown (.md).
+Processo: O MkDocs lê esses arquivos.
+Saída: Um site HTML completo e navegável.
+É a ferramenta que está por trás da construção do seu site de documentação, conforme definido no seu workflow do GitHub Actions.

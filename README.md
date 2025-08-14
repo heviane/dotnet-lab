@@ -26,8 +26,6 @@ Um guia passo a passo para seus estudos. Ela foi desenhada para te guiar dos fun
 
 Este é um projeto de código aberto e toda contribuição é bem-vinda! Se você tem interesse em ajudar, por favor, leia nosso [Guia de Contribuição](./CONTRIBUTING.md) para saber como começar.
 
-Para garantir um ambiente seguro e acolhedor para todos, pedimos que siga nosso [Código de Conduta](./CODE_OF_CONDUCT.md).
-
 ---
 
 ## 📂 Estrutura do Repositório
@@ -47,14 +45,6 @@ O projeto é organizado de forma a separar claramente a documentação do códig
     ├── library/                 # Bibliotecas de código reutilizável (Class Library)
     └── tests/                   # Projetos de testes automatizados (xUnit, etc.)
 ```
-
-### 💻 Tipos de Projetos
-
-* **api**: Web API (webapi)
-* **app**: ASP .NET Core Web App (MVC / Razor Pages)
-* **console**: Console Application
-* **library**: Class Library (classlib)
-* **tests**: Test Project (xunit, nunit, mstest)
 
 ## 📄 Documentações e Links Úteis
 
