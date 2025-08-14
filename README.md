@@ -9,24 +9,31 @@ Para explorar os projetos e o conteúdo deste repositório, siga os passos abaix
 1. **Configure seu ambiente:** Garanta que todos os pré-requisitos estão instalados, seguindo nosso 📄 [guia de requisitos](./docs/requirements-guide.md).
 2. **Clone o repositório:**
 
-    ```bash
-    git clone https://github.com/heviane-studies/dotnet-lab.git
-    cd dotnet-lab
-    ```
+```bash
+git clone https://github.com/heviane/dotnet-lab.git
+cd dotnet-lab
+```
 
-3. **Explore os projetos:** Navegue pelos diretórios em `src/` para ver os exemplos práticos. A maioria dos projetos pode ser executada com o comando `dotnet run`.
+<!--
+
+TODO: Inserir esta info no site de documentação gerado pelo MkDocs
 
 ## 🗺️ Trilha de Aprendizagem
 
 **Não sabe por onde começar?** Siga nossa 🧭 [Trilha de Aprendizagem .NET](./docs/dotnet-learning-plan.md)
 
 Um guia passo a passo para seus estudos. Ela foi desenhada para te guiar dos fundamentos até tópicos mais avançados de forma estruturada e prática.
+-->
+
+## 📚 Documentação
+
+Toda a documentação detalhada, guias, anotações de estudo e explicações conceituais estão centralizadas em nosso site de documentação, gerado com MkDocs.
+
+➡️ **[Acesse a Documentação Completa](https://heviane.github.io/dotnet-lab/)**
 
 ## 🤝 Como Contribuir
 
 Este é um projeto de código aberto e toda contribuição é bem-vinda! Se você tem interesse em ajudar, por favor, leia nosso [Guia de Contribuição](./CONTRIBUTING.md) para saber como começar.
-
----
 
 ## 📂 Estrutura do Repositório
 
@@ -46,18 +53,6 @@ O projeto é organizado de forma a separar claramente a documentação do códig
     └── tests/                   # Projetos de testes automatizados (xUnit, etc.)
 ```
 
-## 📄 Documentações e Links Úteis
-
-* [Requisitos para o ambiente de desenvolvimento em .NET](./docs/requirements-guide.md)
-* [Entendendo o Arquivo de Solução (.sln)](./docs/solution-file-explained.md)
-* [Guia de Comandos .NET CLI](./docs/dotnet-cli-guide.md) - Uma referência rápida para os comandos mais úteis.
-* [Guia de Versionamento](./docs/versioning-guide.md) - Entenda como as versões do projeto são gerenciadas.
-
-  ### 👀 References
-
-  * [Documentação Oficial do .NET](https://docs.microsoft.com/dotnet/)
-  * [Microsoft Learn](https://learn.microsoft.com/dotnet) - A plataforma oficial da Microsoft oferece trilhas de aprendizagem, tutoriais e documentação completa para todo o ecossistema .NET.
-
 ## 👥 Contribuidores
 
 Agradecemos a todos que contribuíram para este projeto.
@@ -71,9 +66,14 @@ Veja a [Licença do Projeto](./LICENSE.md) para mais informações.
 
 ## Contato
 
-Heviane Bastos: `+55 (51) 99855-1866` / `heviane@gmail.com`
-Project Link: https://github.com/heviane/dotnet-lab
-[![LinkedIn][linkedin-shield]][linkedin-url]
+<div align="left">
+  <a href="https://www.linkedin.com/in/hevianebastos" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:heviane@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+</div>
 
 [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url]
 
@@ -88,9 +88,6 @@ Project Link: https://github.com/heviane/dotnet-lab
 
 [contributors-shield]: https://img.shields.io/github/contributors/heviane/dotnet-lab.svg?style=for-the-badge
 [contributors-url]: https://github.com/heviane/dotnet-lab/graphs/contributors
-
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/hevianebastos/
 
 [forks-shield]: https://img.shields.io/github/forks/heviane/dotnet-lab.svg?style=for-the-badge
 [forks-url]: https://github.com/heviane/dotnet-lab/network/members
