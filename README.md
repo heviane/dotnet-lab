@@ -37,7 +37,7 @@ Um guia passo a passo para seus estudos. Ela foi desenhada para te guiar dos fun
 
 ## 🤝 Como Contribuir
 
-Este é um projeto de código aberto e toda contribuição é bem-vinda! Se você tem interesse em ajudar, por favor, leia nosso [Guia de Contribuição](./CONTRIBUTING.md) para saber como começar.
+Este é um projeto de código aberto e toda contribuição é bem-vinda! Se você tem interesse em ajudar, por favor, leia nosso [Guia de Contribuição](.github/CONTRIBUTING.md) para saber como começar.
 
 ## 📂 Estrutura do Repositório
 
@@ -75,8 +75,7 @@ Agradecemos a todos que contribuíram para este projeto.
 
 ## 🥇 Licença
 
-Este projeto está licenciado sob a Licença **Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional**.
-Veja a [Licença do Projeto](./LICENSE.md) para mais informações.
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
 ## 💬 Contato
 
