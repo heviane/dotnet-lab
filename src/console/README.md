@@ -10,7 +10,7 @@ O objetivo é criar estudos práticos e isolados, cada um focando em um conceito
 
 A organização dos projetos foi pensada para ser simples e escalável:
 
-```
+```textplain
 console/
 ├── 🚀 Launcher/
 │   ├── Program.cs         # O código do menu principal
@@ -18,14 +18,14 @@ console/
 │
 ├── 📁 Apps/
 │   ├── Calculator/        # Projeto de estudo: Calculadora
-│   ├── Loops/             # Projeto de estudo: Desafios de Loops
+│   ├── Examples/          # Projeto de estudo: Examples
 │   └── ...                # Outros projetos de estudo
 │
 └── 📄 README.md            # Este arquivo que você está lendo
 ```
 
--   **`Launcher`**: É a aplicação principal e o ponto de entrada para todos os outros estudos de console. Ele apresenta um menu interativo que permite escolher e executar qualquer um dos projetos listados.
--   **`Apps/`**: Este diretório contém as aplicações de console individuais. Cada subpasta representa um estudo, aula ou desafio específico, mantendo o código de cada lição organizado e independente.
+- **`Launcher`**: É a aplicação principal e o ponto de entrada para todos os outros estudos de console. Ele apresenta um menu interativo que permite escolher e executar qualquer um dos projetos listados.
+- **`Apps/`**: Este diretório contém as aplicações de console individuais. Cada subpasta representa um estudo, aula ou desafio específico, mantendo o código de cada lição organizado e independente.
 
 ---
 
@@ -47,26 +47,22 @@ Isso irá compilar e executar o `Launcher`, que exibirá o menu com todos os pro
 
 Para adicionar uma nova aplicação de console ao `Launcher`, siga estes três passos:
 
-1.  **Crie o Novo Projeto**: Use a CLI do .NET para criar seu novo projeto de console dentro da pasta `Apps`.
+1. **Crie o Novo Projeto**: Use a CLI do .NET para criar seu novo projeto de console dentro da pasta `Apps`.
 
-    ```bash
-    dotnet new console -o src/console/Apps/MeuNovoEstudo
-    ```
+```bash
+dotnet new console -o src/console/Apps/MeuNovoEstudo
+```
 
-2.  **Adicione a Referência no Launcher (Opcional, mas recomendado)**: Adicionar a referência ajuda o .NET a entender a relação entre os projetos.
+2. **Adicione a Referência no Launcher (Opcional, mas recomendado)**: Adicionar a referência ajuda o .NET a entender a relação entre os projetos.
 
-    ```bash
-    dotnet add src/console/Launcher/Launcher.csproj reference src/console/Apps/MeuNovoEstudo/MeuNovoEstudo.csproj
-    ```
+```bash
+dotnet add src/console/Launcher/Launcher.csproj reference src/console/Apps/MeuNovoEstudo/MeuNovoEstudo.csproj
+```
 
-3.  **Adicione ao Menu do Launcher**: Abra o arquivo `src/console/Launcher/Program.cs` e adicione seu novo projeto à lista `projects`.
+3. **Execute o Launcher**: Compile e execute o Launcher novamente.
 
-    ```csharp
-    var projects = new List<Project>
-    {
-        // ... outros projetos
-        new Project("Meu Novo Estudo", "../Apps/MeuNovoEstudo/MeuNovoEstudo.csproj")
-    };
-    ```
+```bash
+dotnet run --project src/console/Launcher/Launcher.csproj
+```
 
-Pronto! Na próxima vez que você executar o `Launcher`, seu novo estudo aparecerá como uma opção no menu.
+Pronto! O `Launcher` foi programado para descobrir e listar automaticamente qualquer novo projeto adicionado à pasta `Apps/`. Seu novo estudo aparecerá como uma opção no menu.

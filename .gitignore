@@ -63,3 +63,5 @@ project.assets.json
 secrets.json
 appsettings.Development.json
 
+# Temporary files and drafts
+temp/

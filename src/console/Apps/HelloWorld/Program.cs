@@ -9,6 +9,8 @@ var greeter = new Greeter();
 greeter.SayHello("Heviane");
 greeter.SayHello("Gemini");
 
+// TODO: Mover todos os exemplos abaixo para o projeto src/console/Apps/Examples
+
 // -------------------- Challenge - if-else-elseif
 /*
 Random random = new Random();

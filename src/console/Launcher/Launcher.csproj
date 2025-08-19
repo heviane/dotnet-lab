@@ -5,6 +5,7 @@
     <ProjectReference Include="..\Apps\Calculator\Calculator.csproj" />
     <ProjectReference Include="..\Apps\Loops\Loops.csproj" />
     <ProjectReference Include="..\Apps\Classes\Classes.csproj" />
+    <ProjectReference Include="..\Apps\Examples\Examples.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

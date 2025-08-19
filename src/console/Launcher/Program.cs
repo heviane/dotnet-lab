@@ -60,7 +60,10 @@ class LauncherApp
     static List<Project> DiscoverProjects()
     {
         var launcherPath = AppDomain.CurrentDomain.BaseDirectory;
-        var appsPath = Path.GetFullPath(Path.Combine(launcherPath, "..", "..", "Apps"));
+        // O caminho base é .../bin/Debug/net9.0, então precisamos subir 4 níveis
+        // para chegar em 'src/console/' e então acessar 'Apps'.
+        // ../../../.. -> src/console/
+        var appsPath = Path.GetFullPath(Path.Combine(launcherPath, "..", "..", "..", "..", "Apps"));
 
         if (!Directory.Exists(appsPath))
         {
@@ -68,9 +71,10 @@ class LauncherApp
         }
 
         return Directory.GetFiles(appsPath, "*.csproj", SearchOption.AllDirectories)
-                        .Select(proj => new Project(
-                            Name: Path.GetFileNameWithoutExtension(proj),
-                            Path: Path.GetRelativePath(launcherPath, proj)))
+                        // Usamos o caminho absoluto (a variável 'proj' já contém o caminho completo) para o arquivo de projeto.
+                        // Isso é mais robusto do que calcular um caminho relativo,
+                        // pois funciona independentemente do diretório de trabalho do processo.
+                        .Select(proj => new Project(Name: Path.GetFileNameWithoutExtension(proj), Path: proj))
                         .OrderBy(p => p.Name)
                         .ToList();
     }
