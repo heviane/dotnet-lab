@@ -1,4 +1,4 @@
-# 🚀 Introdução à Plataforma .NET
+# Introdução à Plataforma .NET
 
 Bem-vindo(a) ao universo .NET! Se você está começando sua jornada na programação ou vindo de outras tecnologias, este guia vai te dar uma visão clara do que é a plataforma .NET, para que serve e por que ela é uma das escolhas mais populares e poderosas para desenvolvedores em todo o mundo.
 

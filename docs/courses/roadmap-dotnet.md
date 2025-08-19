@@ -1,4 +1,4 @@
-# 🧭 Trilha de Aprendizagem .NET
+# Trilha de Aprendizagem .NET
 
 Para se tornar um especialista na plataforma .NET, o domínio profundo de **C#** é o pilar mais importante. No entanto, um desenvolvedor completo utiliza um conjunto de linguagens e tecnologias que se complementam para construir soluções robustas.
 

@@ -1,4 +1,4 @@
-# 📄 Entendendo o Arquivo de Solução (.sln)
+# Entendendo o Arquivo de Solução (.sln)
 
 O arquivo com a extensão `.sln` é um **Solution File** (Arquivo de Solução) do .NET.
 

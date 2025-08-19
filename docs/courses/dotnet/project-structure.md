@@ -1,4 +1,4 @@
-# 📂 Anatomia de um Projeto .NET
+# Anatomia de um Projeto .NET
 
 Todo projeto .NET, seja uma aplicação de console, uma API ou uma biblioteca, segue uma estrutura de arquivos padrão. Entender o propósito de cada arquivo e diretório é fundamental para navegar, desenvolver e gerenciar suas aplicações de forma eficaz.
 

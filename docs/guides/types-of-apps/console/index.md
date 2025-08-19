@@ -1,4 +1,4 @@
-# 🖥️ Guia: Console Application
+# Guia: Console Application
 
 Aplicações de console são programas que rodam em um terminal (linha de comando). Elas representam a forma mais pura e fundamental de se programar em .NET.
 
