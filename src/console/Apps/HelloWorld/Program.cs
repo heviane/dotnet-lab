@@ -1,12 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using HelloWorld;
 
-/*
-    Um projeto C# só pode ter um único ponto de entrada.
-    Quando você escreve código diretamente em um arquivo .cs sem envolvê-lo em uma classe com um método Main,
-    o compilador do C# assume que aquele arquivo é o ponto de entrada do programa.
-    Código solto é o que chamamos de "instruções de nível superior" ou top-level statements.
-*/
+// --- Usando a nossa nova classe Greeter ---
+// 1. Criamos uma instância (um objeto) da nossa classe Greeter.
+var greeter = new Greeter();
 
+// 2. Chamamos o método SayHello, passando um nome.
+greeter.SayHello("Heviane");
+greeter.SayHello("Gemini");
 
 // -------------------- Challenge - if-else-elseif
 /*
@@ -152,6 +153,71 @@ string newMessage = new String(message);
 Console.WriteLine(newMessage);
 Console.WriteLine($"'o' appears {letterCount} times.");
 */
+
+
+/*
+string[] names = { "Rowena", "Robin", "Bao" };
+foreach (string name in names)
+{
+    int index = Array.IndexOf(names, name);
+    Console.WriteLine("Index: " + index + ", Value: " + name);
+}
+
+int[] numbers = new int[5];
+for (int number = 0; number < numbers.Length; number++)
+{
+    numbers[number] = number;
+}
+foreach (int number in numbers)
+{
+    Console.WriteLine(number);
+}
+
+// Redimensionando o array para adicionar mais elementos em tempo de execução
+Array.Resize(ref numbers, 10);
+for (int number = 5; number < numbers.Length; number++)
+{
+    numbers[number] = number;
+}
+foreach (int number in numbers)
+{
+    Console.WriteLine(number);
+}
+
+// Copiar um array para outro
+int[] copyOfNumbers = new int[numbers.Length];
+Array.Copy(numbers, copyOfNumbers, numbers.Length);
+Console.WriteLine("Copy of numbers:");
+foreach (int number in copyOfNumbers)
+{
+    Console.WriteLine(number);
+}
+*/
+
+
+
+// -------------------- Challenge - Listas
+/*
+    Listas são coleções dinâmicas que podem crescer e encolher conforme necessário.
+    Elas são mais flexíveis que arrays, pois permitem adicionar e remover elementos facilmente.
+    Internamente, listas usam arrays para armazenar seus elementos, mas gerenciam o tamanho automaticamente.
+*/
+List<int> numeros = new List<int>();
+
+numeros.Add(1);
+numeros.Add(2);
+numeros.Add(3);
+numeros.Add(4);
+numeros.Add(5);
+numeros.Add(6);
+
+numeros.Remove(2); // Remove o elemento 2 da lista
+
+Console.WriteLine("Lista de números:");
+foreach (int numero in numeros)
+{
+    Console.WriteLine(numero);
+}
 
 // -------------------- Challenge - Operadores
 /*
@@ -492,8 +558,6 @@ for (int i = 1; i < 101; i++)
 }
 */
 
-// -------------------- Challenge - Loop while
-
 // -------------------- Challenge - Loop do while
 
 // EX 1
@@ -532,6 +596,9 @@ do
 Console.WriteLine(hero > monster ? "Hero wins!" : "Monster wins!");
 */
 
+
+
+/*
 int numero = 0, soma = 0;
 
 do
@@ -543,6 +610,10 @@ do
 } while (numero != 0);
 
 Console.WriteLine($"A soma dos números digitados é: {soma}");
+*/
+
+
+
 
 /*
     `Console.ReadLine()` não funciona no terminal de debug do Visual Studio Code.

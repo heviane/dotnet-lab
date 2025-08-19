@@ -1,5 +1,7 @@
 # Arrays
 
+É uma estrutura de dados que armazena valores do mesmo tipo, com um tamanho fixo.
+
 Armazenar e iterar em sequências de dados usando Matrizes e a instrução `foreach`.
 As matrizes permitem armazenar sequências de valores em uma única estrutura de dados.
 
@@ -7,10 +9,8 @@ Em outras palavras, imagine uma única variável que pode conter vários valores
 
 ## Objetivos de aprendizagem
 
-Neste módulo, você vai:
-
 - Criar e inicializar uma matriz.
-- Defina e obtenha valores em matrizes.
+- Definir e obter os valores em matrizes.
 - Percorrer cada elemento de uma matriz usando a instrução `foreach`.
 
 ## O que é uma matriz?
@@ -50,6 +50,12 @@ string[] names = { "Rowena", "Robin", "Bao" };
 foreach (string name in names)
 {
     Console.WriteLine(name);
+}
+
+int[] numbers = new int[5];
+foreach (int number in numbers)
+{
+    Console.WriteLine(number);
 }
 ```
 
