@@ -2,19 +2,34 @@ namespace Models
 {
     public class Pessoa
     {
-        // Propriedades - são usadas para armazenar dados de uma classe.
-        public int Id { get; set; }
-        //public required string Name { get; set; } // 'required' indica que a propriedade é obrigatória (não pode ser nula) *** Recomendado e mais atual ***
-        //public string? Name { get; set; } // '?' indica que a propriedade é opcional (pode ser nula)
-        public string Name { get; set; } = string.Empty; // inicializada com string vazia
-        public int Age { get; set; }
-        public DateTime Birthday { get; set; }
 
-        // Métodos - são usados para definir comportamentos de uma classe.
-        public void Apresentar()
+        public Pessoa(int id, string name, string lastName, DateTime birthday)
         {
-            DateTime today = DateTime.Now;
-            Console.WriteLine($"{today} - {today.DayOfWeek}: Olá, meu nome é {Name}, tenho {Age} anos, pois nasci em {Birthday.ToString("dd/MM/yyyy")}.");
+            Id = id;
+            Name = name;
+            LastName = lastName;
+            Birthday = birthday;
+        }
+
+        public Pessoa()
+        {
+            int id = 0; string name = string.Empty; string lastName = string.Empty; DateTime birthday = DateTime.MinValue;
+        }
+
+        private string _name = string.Empty;
+        private int _age;
+
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string LastName { get; set; } = string.Empty;
+        public DateTime Birthday { get; set; }
+        public int Age { get { return (int)((DateTime.Now - Birthday).TotalDays / 365.25); } }
+        public bool IsAdult => Age >= 18;
+        public string FullName => $"{Name} {LastName}";
+
+        public virtual void Apresentar()
+        {
+            Console.WriteLine($"- Olá, meu nome é {FullName}, tenho {Age} anos, pois nasci em {Birthday.ToString("dd/MM/yyyy")}. Sou maior de idade? {IsAdult}.");
         }
     }
 }

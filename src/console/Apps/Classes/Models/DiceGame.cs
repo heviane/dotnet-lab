@@ -3,13 +3,12 @@ namespace Models;
 
 using System;
 
-// Usamos o 'public' para que a classe e o método fiquem acessíveis para o Program.cs
 public class DiceGame
 {
     // Este método não precisa de 'static' porque vamos criar um objeto (instância) da classe para usá-lo.
     public void Play()
     {
-
+        Console.WriteLine($"\n--- Dice Games: ---");
         /*
             Nesta primeira parte, é criado uma instancia da classe Random, que chama o método Next() a partir do objeto dice gerado.
         */
@@ -22,9 +21,7 @@ public class DiceGame
         /*
             Nesta segunda parte, é incluido uma referência à classe Console, que chama o método Console.WriteLine() diretamente.
         */
-        Console.WriteLine(roll1);
-        Console.WriteLine(roll2);
-        Console.WriteLine(roll3);
+        Console.WriteLine($"- (Generate three random numbers between 1 and 6) - Rolls: roll1={roll1}, roll2={roll2}, roll3={roll3}");
 
         /*
             A razão, é porque alguns métodos são "com estado" (com instanciação de objetos) e outros são "sem estado" (com referência direta).
@@ -32,7 +29,7 @@ public class DiceGame
 
         int total = roll1 + roll2 + roll3;
 
-        Console.WriteLine($"Dice roll: {roll1} + {roll2} + {roll3} = {total}");
+        Console.WriteLine($"- Dice roll: {roll1} + {roll2} + {roll3} = {total}");
 
         if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
         {
