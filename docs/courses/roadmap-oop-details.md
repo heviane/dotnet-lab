@@ -8,12 +8,9 @@ A Programação Orientada a Objetos é um paradigma fundamental no desenvolvimen
 
 O ponto de partida. Aqui, você entenderá o que são objetos e como eles são construídos.
 
-DIO modulo 1: Propriedades, Métodos e Construtores.
-DIO modulo 2: Manipulando valores e passar parametros por referencia.
-DIO modulo 3: Exceções e Coleções.
-
 - Conceitos Iniciais:
   - Abstração
+
 - Classes and Objects: O que é um "molde" (Classe) e o que é uma "instância" (Objeto). A base de tudo.
   - Composição: Onde uma classe (Course) é composta por uma coleção de outras classes (Pessoa).
 
@@ -23,11 +20,12 @@ DIO modulo 3: Exceções e Coleções.
       - propriedades automáticas
       - propriedades com lógica adicional - Campos de apoio ("backing fields")
       - Body Expressions
-    - Somente leitura (only getters)
-    - Somente escrita (only setters)
-    - Validações na declaração de propriedades
+      - Somente leitura (only getters)
+      - Somente escrita (only setters)
+      - Validações na declaração de propriedades
+
   - Métodos
-    - Métodos Construtores e inicializadores de objeto
+    - Métodos Construtores (inicializadores de objeto)
     - Métodos com estado (instanciação de objetos)
     - Métodos sem estado (referenciados diretamente, sem instanciação de objetos) - Métodos estáticos
       - **Membros Estáticos (`static`)**: Entendendo a diferença entre membros que pertencem a uma instância e membros que pertencem à própria classe.
@@ -45,6 +43,7 @@ DIO modulo 3: Exceções e Coleções.
     - Sobrecarga de métodos (method overloading): Permite que uma classe ofereça várias maneiras de chamar um método com o mesmo nome, tornando mais flexível e intuitiva para quem a utiliza.
       - O conceito de sobrecarga de método (method overloading) exige que os métodos tenham o mesmo nome, mas assinaturas diferentes.
       - Ex.: `Console.WriteLine()`
+    - Polimorfismo: Sobrescrevendo (override) na classe, exemplo em [Student que herda de Pessoa](../../src/console/Apps/Classes/Models/Student.cs)
 
 - Propriedades e Métodos
   - Modificadores de Acesso (`public`, `private`, `protected`). Conceito de **Encapsulamento**.
@@ -85,3 +84,12 @@ Aprofundando o conhecimento sobre como o .NET gerencia seus objetos.
 - **Stack, Heap e Garbage Collector**: Uma visão sobre o gerenciamento de memória no .NET.
 - **Serialização e Atributos**: Como persistir o estado de um objeto e como adicionar metadados ao seu código.
 - **Recursos Adicionais da Linguagem**: Explorando `Tuplas`, `Records`, `deconstrução de objetos` e outros recursos modernos do C# que facilitam o trabalho com dados.
+
+## PLANNING / SCHEDULE / MONITORING
+
+- [https://dio.me](https://dio.me) - DIO - Digital Innovation One
+  - OOP
+    - [X] DIO modulo 1: Propriedades, Métodos e Construtores.
+      - **commit**: `feat(poo): Adiciona exemplos de Propriedades, Métodos e Construtores (módulo 1)`
+    - [ ] DIO modulo 2: Manipulando valores e passar parametros por referencia.
+    - [ ] DIO modulo 3: Exceções e Coleções.

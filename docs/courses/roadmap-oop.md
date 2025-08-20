@@ -82,3 +82,32 @@ Aprofundando o conhecimento sobre o funcionamento interno do .NET e utilizando r
 - 🗑️ **Gerenciamento de Memória**: Uma visão sobre `Stack`, `Heap` e o papel do `Garbage Collector`.
 - ✨ **Recursos Modernos do C#**: Explorar `Records`, `Tuplas`, `deconstrução de objetos` e outros recursos que facilitam o trabalho com dados.
 - 💾 **Serialização e Atributos**: Como persistir o estado de um objeto e como adicionar metadados ao seu código.
+
+---
+
+## 🗓️ Plano de Estudos e Acompanhamento 🎓
+
+Acompanhamento do progresso baseado no roadmap acima, utilizando o curso da **Digital Innovation One** como fonte de aprendizado.
+**Exemplo de commit**: `feat(poo): Conclui Módulo 1 com exemplos de Propriedades e Construtores`.
+
+### ✅ Módulo 1: A Base da POO (Concluído)
+
+- [X] **Classes e Objetos**: Entendimento do conceito e da sintaxe.
+- [X] **Membros de uma Classe**: Propriedades, Métodos e Construtores.
+- [X] **Modificadores de Acesso**: `public`, `private` e o início do Encapsulamento.
+- **Commit de Conclusão**: `feat(poo): Adiciona exemplos de Propriedades, Métodos e Construtores (módulo 1)`
+
+### ⏳ Módulo 2: Os 4 Pilares da POO (A Fazer)
+
+- [ ] **Encapsulamento**: Aprofundamento com `private set` e validações.
+- [ ] **Herança**: `class Filha : Pai`, `base`, `sealed`.
+- [ ] **Polimorfismo**: `virtual` e `override`.
+- [ ] **Abstração**: `abstract class` e `interface`.
+- _Conteúdo DIO relacionado: Módulos de Herança, Polimorfismo e Abstração.
+
+### ⬜ Módulo 3: Ferramentas Essenciais e Contratos (A Fazer)
+
+- [ ] **Interfaces**: Definição e implementação de contratos.
+- [ ] **Coleções**: `List<T>`, `Dictionary<TKey, TValue>`.
+- [ ] **Tratamento de Exceções**: `try-catch-finally`.
+- _Conteúdo DIO relacionado: Módulo de Exceções e Coleções.

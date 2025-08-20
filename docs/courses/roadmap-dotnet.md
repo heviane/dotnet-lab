@@ -243,10 +243,6 @@ Para aqueles que desejam ir além da web, o .NET oferece uma plataforma unificad
 
 ---
 
-## 🗓️ Plano de Estudos Estruturado
-
-Para uma abordagem mais guiada e com cronograma, consulte nosso plano de estudos.
-
 ## Recursos
 
 - [Microsoft Learn](https://learn.microsoft.com/dotnet) - Plataforma oficial da Microsoft para aprendizagem.
