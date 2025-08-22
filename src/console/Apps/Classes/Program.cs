@@ -1,42 +1,85 @@
-﻿// O Program.cs agora apenas cria uma instância da nossa aplicação e a executa. Toda a lógica está encapsulada na classe ClassesApp.
+﻿/// <summary>
+/// Ponto de entrada para o projeto "Classes".
+/// A responsabilidade do Program.cs aqui é orquestrar qual exemplo será executado.
+/// </summary>
+public class Program
+{
+    /// <summary>
+    /// Representa um item de exemplo que pode ser executado.
+    /// Usamos um 'record' para criar um tipo imutável e conciso.
+    /// </summary>
+    public record ExampleItem(string Category, string Name, Action RunAction);
 
-using Models;
-var app = new ClassesApp();
-app.Run();
+    static void Main(string[] args)
+    {
+        // 1. Criamos instâncias das classes que contêm nossos exemplos.
+        var classesApp = new ClassesApp.ClassesApp();
+        var courseApp = new CourseApp();
+        var inheritanceApp = new InheritanceApp();
 
-var appCourse = new ClassesAppCourse();
-appCourse.Run();
+        // Lista de todos os exemplos disponíveis.
+        // Adicione novos exemplos aqui conforme você os cria em suas respectivas pastas.
+        var examples = new List<ExampleItem>
+        {
+            // 2. Passamos uma referência para o método Run de cada instância.
+            new ExampleItem("Classes e Objetos", "Demonstração Geral de Classes", classesApp.Run),
+            new ExampleItem("Composição de Classes", "Composição com Cursos e Alunos", courseApp.Run),
+            new ExampleItem("Herança e Polimorfismo", "Demonstração de Herança e Polimorfismo", inheritanceApp.Run)
+            // Adicione mais exemplos aqui:
+        };
 
-/* =========================== Demonstração de Herança e Polimorfismo ===========================
-    A classe InheritanceApp demonstra o uso de herança e polimorfismo em C#:
-    - Herança é um passo fundamental para criar um código mais organizado e reutilizável.
-    - Polimorfismo permite que classes derivadas alterem o comportamento de métodos herdados, proporcionando flexibilidade e extensibilidade.
+        while (true)
+        {
+            Console.Clear();
+            Console.WriteLine("===================================");
+            Console.WriteLine("      📚 Exemplos de Classes 📚      ");
+            Console.WriteLine("===================================");
+            Console.WriteLine("Escolha um exemplo para executar:");
 
-    A sugestão mais clássica e didática é criar uma classe Student (Aluno) que herda de Pessoa.
-    - A lógica é que "todo Aluno é uma Pessoa", mas possui características adicionais, como um ID de estudante.
+            // Agrupa e exibe os exemplos por categoria
+            var groupedExamples = examples.GroupBy(e => e.Category).OrderBy(g => g.Key);
+            var displayedExamples = new List<ExampleItem>(); // Lista plana para mapear o número escolhido ao exemplo
 
-    Isso nos permite demonstrar dois pilares da POO de uma só vez:
-    - Herança: Student reutilizará todos os membros de Pessoa.
-    - Polimorfismo: Faremos com que o Student se "apresente" de uma forma um pouco diferente da Pessoa, sobrescrevendo o método Apresentar.
-*/
-var inheritanceApp = new InheritanceApp();
-inheritanceApp.Run();
+            int currentDisplayNumber = 1;
+            foreach (var group in groupedExamples)
+            {
+                Console.WriteLine($"\n--- {group.Key} ---");
+                foreach (var example in group.OrderBy(e => e.Name))
+                {
+                    Console.WriteLine($"{currentDisplayNumber}. {example.Name}");
+                    displayedExamples.Add(example); // Adiciona à lista plana para seleção
+                    currentDisplayNumber++;
+                }
+            }
 
-/* =========================== Demonstração de Construtores ===========================
-    A classe ContaBancaria demonstra um uso real e prático de construtores.
-    Ao exigir 'numeroConta' e 'nomeTitular' na criação, garantimos que nenhuma instância da conta exista em um estado inválido.
-*/
-Console.WriteLine("\n--- Demonstração de Construtores com ContaBancaria ---");
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("0. Voltar ao menu principal do Launcher");
+            Console.WriteLine("===================================");
+            Console.Write("Digite sua opção: ");
 
-// Tentativa de criar uma conta sem os dados essenciais (isto agora gera um erro de compilação!)
-// var contaInvalida = new ContaBancaria(); // ERRO: Não há um construtor que não receba argumentos.
+            string? choice = Console.ReadLine();
 
-// Forma correta: fornecendo os dados obrigatórios no construtor.
-var conta1 = new ContaBancaria("12345-6", "Heviane Bastos", 1000.50m);
-conta1.ExibirSaldo();
+            if (int.TryParse(choice, out int selectedNumber) && selectedNumber > 0 && selectedNumber < currentDisplayNumber)
+            {
+                var selectedExample = displayedExamples[selectedNumber - 1]; // Obtém o exemplo pelo índice
 
-var conta2 = new ContaBancaria("98765-4", "Tony Stark"); // Usando o parâmetro opcional 'saldoInicial' (será 0)
-conta2.ExibirSaldo();
-conta2.Depositar(500);
-
-Console.WriteLine("--- Demonstração de Construtores Concluída ---");
+                Console.Clear();
+                Console.WriteLine($"Executando: {selectedExample.Category} - {selectedExample.Name}...");
+                Console.WriteLine(new string('=', 50));
+                selectedExample.RunAction(); // Executa o exemplo
+                Console.WriteLine(new string('=', 50));
+                Console.WriteLine("\nPressione qualquer tecla para voltar ao menu de exemplos...");
+                Console.ReadKey();
+            }
+            else if (choice == "0")
+            {
+                break; // Sai do menu de exemplos
+            }
+            else
+            {
+                Console.WriteLine("Opção inválida. Pressione qualquer tecla para tentar novamente...");
+                Console.ReadKey();
+            }
+        }
+    }
+}

@@ -1,4 +1,5 @@
 using Models;
+namespace ClassesApp;
 
 public class ClassesApp
 {
@@ -38,7 +39,7 @@ public class ClassesApp
         var pessoa3 = new Pessoa(3, "Ana", "Pereira", new DateTime(2002, 8, 10));
         pessoa3.Apresentar();
 
-        var pessoa4 = new Pessoa(id: 3, name: "Helena", lastname: "Rodrigues", birthday: new DateTime(1961, 6, 17));
+        var pessoa4 = new Pessoa(id: 3, name: "Helena", lastName: "Rodrigues", birthday: new DateTime(1961, 6, 17));
         pessoa4.Apresentar();
 
         // ------------------------- Como usar classes em conjunto (Composição)
@@ -56,7 +57,7 @@ public class ClassesApp
         dotNetCourse.AddStudent(pessoa2);
 
         // 3. Listar os alunos do curso usando o método que criamos
-        dotNetCourse.ListStudents();
+        dotNetCourse.ListStudentsEnumerated();
         dotNetCourse.GetStudentCount();
         Console.WriteLine($"Total de alunos matriculados no curso '{dotNetCourse.Name}': {dotNetCourse.GetStudentCount()}");
 

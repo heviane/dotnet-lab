@@ -1,6 +1,6 @@
 using Models;
 
-public class ClassesAppCourse
+public class CourseApp
 {
     public void Run()
     {

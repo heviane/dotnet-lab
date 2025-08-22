@@ -1,7 +1,5 @@
 ﻿using Examples;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using Examples.Format;
 
 /// <summary>
 /// Ponto de entrada para o projeto "Examples".
@@ -21,10 +19,17 @@ public class Program
         // Adicione novos exemplos aqui conforme você os cria em suas respectivas pastas.
         var examples = new List<ExampleItem>
         {
+            // Formatações
+            new ExampleItem("Formatação", "Concatenação e Interpolação", FormatString.Run),
+            new ExampleItem("Formatação", "Valores Monetários", FormatMonetary.Run),
+            new ExampleItem("Formatação", "Data e Hora (DateTime)", FormatDateTime.Run),
+
+            // Fluxos de Controle
+            new ExampleItem("Fluxos", "If-Else - Par ou Ímpar", ParOrImpar.Run),
             new ExampleItem("Fluxos", "Switch Case - Day Of The Week", DayOfTheWeek.Run),
-            new ExampleItem("Fluxos", "Switch Case - Plan Recommendation", PlanRecommendation.Run)
+            new ExampleItem("Fluxos", "Switch Case - Plan Recommendation", PlanRecommendation.Run),
+
             // Adicione mais exemplos aqui:
-            // new ExampleItem("Nova Categoria", "Nome do Exemplo", NomeDaClasseDoExemplo.Run),
         };
 
         while (true)

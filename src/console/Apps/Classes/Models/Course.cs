@@ -37,6 +37,22 @@ namespace Models
             }
         }
 
+        public void ListStudentsEnumerated()
+        {
+            Console.WriteLine($"\n--- Alunos do curso: {Name} ---");
+            if (Students.Any())
+            {
+                for (int i = 0; i < Students.Count; i++)
+                {
+                    Console.WriteLine($"{i + 1} - {Students[i].FullName}");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Nenhum aluno matriculado neste curso.");
+            }
+        }
+
         public int GetStudentCount()
         {
             return Students.Count;

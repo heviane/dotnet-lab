@@ -17,7 +17,6 @@ namespace Models
         }
 
         private string _name = string.Empty;
-        private int _age;
 
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
@@ -29,7 +28,7 @@ namespace Models
 
         public virtual void Apresentar()
         {
-            Console.WriteLine($"- Olá, meu nome é {FullName}, tenho {Age} anos, pois nasci em {Birthday.ToString("dd/MM/yyyy")}. Sou maior de idade? {IsAdult}.");
+            Console.WriteLine($"Id {Id}: - Olá, meu nome é {FullName}, tenho {Age} anos, pois nasci em {Birthday.ToString("dd/MM/yyyy")}. Sou maior de idade? {IsAdult}.");
         }
     }
 }
