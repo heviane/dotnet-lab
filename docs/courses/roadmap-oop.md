@@ -95,7 +95,7 @@ Acompanhamento do progresso baseado no roadmap acima, utilizando o curso da **Di
 - [X] **Classes e Objetos**: Entendimento do conceito e da sintaxe.
 - [X] **Membros de uma Classe**: Propriedades, Métodos e Construtores.
 - [X] **Modificadores de Acesso**: `public`, `private` e o início do Encapsulamento.
-- **Commit de Conclusão**: `feat(poo): Adiciona exemplos de Propriedades, Métodos e Construtores (módulo 1)`
+- [X] **Manipulação e Formatação de Valores**.
 
 ### ⏳ Módulo 2: Os 4 Pilares da POO (A Fazer)
 
