@@ -8,6 +8,8 @@ Elas se dividem em três categorias principais:
     2.  **Iteração (Loops):** Permitem que o código execute um bloco repetidamente.
     3.  **Salto:** Permitem pular para outra parte do código ou sair de uma estrutura.
 
+> Toda **estrutura de decisão** é uma **estrutura de controle de fluxo**, mas nem toda estrutura de controle de fluxo é uma estrutura de decisão.
+
 -----
 
 ## Estruturas de Tomada de Decisão

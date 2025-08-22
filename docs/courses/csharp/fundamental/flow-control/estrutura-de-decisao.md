@@ -1,11 +1,35 @@
-# Ramificar o fluxo de código usando a estrutura switch-case
+# Estruturas de Decisão (ou Condicionais)
+
+Elas permitem que o código escolha um caminho para seguir com base em uma condição.
+
+## Principais Estruturas Condicionais
+
+### Instruções if, else e else if
+
+São instruções de controle de fluxo.
+São comandos que determinam qual bloco de código será executado com base em uma condição.
+Lógica de decisão.
+
+- **`if`**: Executa um bloco de código se uma condição for verdadeira.
+- **`else`**: Executa um bloco de código se a condição for falsa.
+- **`else if`**: Executa um bloco de código se a condição for verdadeira.
+
+#### Recapitulação
+
+- Use uma instrução if para ramificar sua lógica de código. A instrução de decisão if executará o código em seu bloco de código se sua expressão booliana for verdadeira. Caso contrário, o runtime ignorará o bloco de código e continuará para a próxima linha de código após o bloco de código.
+- Uma expressão booliana é qualquer expressão que retorna um valor booliano.
+- Os operadores boolianos comparam os dois valores, à esquerda e à direita, em termos de igualdade, comparação e muito mais.
+- Um bloco de código é definido por chaves { }. Ele coleta linhas de código que devem ser tratadas como uma única unidade.
+- O operador lógico AND && agrega duas expressões de forma que as duas subexpressões devam ser verdadeiras para que toda a expressão seja verdadeira.
+- O operador lógico OR || agrega duas expressões de forma que, se alguma das subexpressões for verdadeira, toda a expressão será verdadeira.
+
+---
+
+### Instrução switch-case
 
 Saiba como adicionar lógica de ramificação que compara uma variável ou expressão a muitos valores possíveis.
-
-## Objetivos de aprendizagem
-
-- Use a estrutura switch-case para fazer a correspondência de uma variável ou expressão com diferentes possíveis resultados.
-- Converter código que usa um constructo `if-elseif-else` em um constructo `switch-case`.
+A instrução `switch` permite que você teste uma variável contra vários valores possíveis (casos).
+É uma alternativa mais limpa e organizada ao uso de múltiplos `if-else`.
 
 ```csharp
 switch (fruit)
@@ -20,6 +44,9 @@ switch (fruit)
 
     case "cherry":
         Console.WriteLine($"App will display information for cherry.");
+        break;
+    default:
+        Console.WriteLine("Not found");
         break;
 }
 ```
@@ -47,7 +74,7 @@ Observe que cada seção do interruptor está separada da próxima:
 
 Somente uma seção de comutador tem permissão para ser executada. Isso significa que a execução de uma seção alternar não pode “cair” na próxima seção alternar. A palavra-chave break é uma das várias maneiras de encerrar uma seção de comutador antes de chegar à próxima seção. Se você esquecer a palavra-chave break (ou, opcionalmente, a palavra-chave return), o compilador gerará um erro.
 
-## Recapitulação
+#### Recapitulando
 
 - Use a instrução switch quando você tiver um valor com muitas correspondências possíveis, cada correspondência que exija uma ramificação em sua lógica de código.
 - Uma única seção de opção que contém a lógica de código que pode ser correspondida usando um ou mais rótulos definidos pela palavra-chave case.
@@ -61,23 +88,3 @@ Para refletir: pontos fortes/fracos da declaração `switch` quando comparado à
 
 - O que acontece se uma instrução break (ou palavra-chave alternativa que impede "fall-through") for omitida em um caso de alternância?
     R: Um erro de compilação será gerado.
-
-## Instrução break
-
-Em C#, se você omitir uma instrução `break` (ou outra instrução de saída como `return` ou `throw`) em uma seção `case` que contém código, você receberá um erro de compilação.
-
-O compilador C# não permitirá que o código seja executado.
-O erro específico é o `CS0163: "O controle não pode passar de um rótulo de caso ('case X:') para outro"`.
-
-### Por que isso acontece?
-
-Os projetistas da linguagem C# tomaram essa decisão para evitar um tipo de bug muito comum em outras linguagens, onde o programador esquece o `break` e o código "cai" (**fall-through**) para o próximo case sem querer, executando lógica não intencional.
-
-Em C#, a sua intenção deve ser explícita.
-
-### Resumo
-
-- Omissão de break em um case com código: Causa um erro de compilação (CS0163).
-- "Fall-through" intencional: É permitido apenas empilhando cases vazios para que eles compartilhem o mesmo bloco de código e a mesma instrução de saída (break, return, etc.).
-
-Essa é uma das características de segurança do C# que ajuda a escrever um código mais robusto e com menos bugs inesperados.

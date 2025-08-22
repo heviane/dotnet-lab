@@ -1,4 +1,13 @@
-# Iterar por meio de um bloco de código usando a instrução for
+# Estruturas de Iteração (Loops)
+
+Permitem que o código execute um bloco repetidamente:
+
+- for
+- foreach
+- while
+- do while
+
+## Instrução `for`
 
 Usar a instrução de iteração for para fazer loop um número predefinido de vezes e controlar o processo de iteração.
 
@@ -6,13 +15,13 @@ Neste módulo, você começará escrevendo instruções `for` que farão a inter
 
 Ao final deste módulo, você será capaz de usar instruções for para implementar a lógica de loop quando as instruções foreach não derem suporte ao cenário.
 
-## Objetivos de aprendizagem
+### Objetivos de aprendizagem
 
 - Usar a instrução `for` para passar o loop por um bloco de código
 - Modificar como o .NET Runtime executa a lógica de loop, alterando o valor do iterador, a condição e o padrão.
 - Examinar a sintaxe da instrução for que permite controlar o padrão de iteração.
 
-## O que é a declaração for?
+### O que é a declaração for?
 
 A instrução for itera por um bloco de código um número específico de vezes. Esse nível de controle torna a instrução for exclusiva entre as outras instruções de iteração. A instrução foreach itera por um bloco de código uma vez para cada item em uma sequência de dados, como uma matriz ou coleção. A while instrução itera por meio de um bloco de código até que uma condição seja atendida.
 
@@ -51,7 +60,7 @@ Exemplo com matriz:
 
 > **Observação:** Poderíamos ter iterado para frente através dos elementos do matriz construindo a instrução for da seguinte forma: for (int i = 0; i < names.Length; i++).
 
-Exemplo de limitação da instrução `foreach`:
+## Instrução `foreach`
 
     ```csharp
     string[] names = { "Alex", "Eddie", "David", "Michael" };
@@ -97,7 +106,7 @@ Outra versão do exemplo anterior, mas com uma apresentação diferente:
     }
     ```
 
-## Recapitulação
+### Recapitulação
 
 - A instrução de iteração `for` permite iterar por meio de um bloco de código um número específico de vezes.
 - A instrução de iteração `for` permite controlar todos os aspectos da mecânica da iteração alterando as três condições dentro dos parênteses:
