@@ -1,5 +1,6 @@
 ﻿using Examples;
 using Examples.Format;
+using Examples.Exceptions;
 
 /// <summary>
 /// Ponto de entrada para o projeto "Examples".
@@ -15,6 +16,9 @@ public class Program
 
     static void Main(string[] args)
     {
+        // Instanciando as classes que contêm os exemplos
+        var stackTrace = new StackTrace();
+
         // Lista de todos os exemplos disponíveis.
         // Adicione novos exemplos aqui conforme você os cria em suas respectivas pastas.
         var examples = new List<ExampleItem>
@@ -28,6 +32,11 @@ public class Program
             new ExampleItem("Fluxos", "If-Else - Par ou Ímpar", ParOrImpar.Run),
             new ExampleItem("Fluxos", "Switch Case - Day Of The Week", DayOfTheWeek.Run),
             new ExampleItem("Fluxos", "Switch Case - Plan Recommendation", PlanRecommendation.Run),
+
+            // Exceptions
+            new ExampleItem("Exceções", "Stack Trace (Rastreabilidade)", stackTrace.Run),
+            //new ExampleItem("Exceções", "Try-Catch-Finally", Exceptions.TryCatchFinallyApp.Run),
+            //new ExampleItem("Exceções", "Exceção Personalizada", Exceptions.CustomExceptionApp.Run),
 
             // Adicione mais exemplos aqui:
         };

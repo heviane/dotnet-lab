@@ -16,6 +16,7 @@ public class Program
         var classesApp = new ClassesApp.ClassesApp();
         var courseApp = new CourseApp();
         var inheritanceApp = new InheritanceApp();
+        var bankAccountApp = new BankAccountApp();
 
         // Lista de todos os exemplos disponíveis.
         // Adicione novos exemplos aqui conforme você os cria em suas respectivas pastas.
@@ -24,7 +25,8 @@ public class Program
             // 2. Passamos uma referência para o método Run de cada instância.
             new ExampleItem("Classes e Objetos", "Demonstração Geral de Classes", classesApp.Run),
             new ExampleItem("Composição de Classes", "Composição com Cursos e Alunos", courseApp.Run),
-            new ExampleItem("Herança e Polimorfismo", "Demonstração de Herança e Polimorfismo", inheritanceApp.Run)
+            new ExampleItem("Herança e Polimorfismo", "Demonstração de Herança e Polimorfismo", inheritanceApp.Run),
+            new ExampleItem("Exceções e Erros", "Demonstração de Conta Bancária e Exceções", bankAccountApp.Run)
             // Adicione mais exemplos aqui:
         };
 
