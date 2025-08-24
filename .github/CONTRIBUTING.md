@@ -1,25 +1,15 @@
-# 🤝 Como Contribuir
+# 🤝 Guia de Contribuição
 
-Olá, contribuidor(a). Ficamos muito felizes com seu interesse em contribuir com o Laboratório de Estudos .NET, sua participação é muito bem-vinda!
+Ficamos muito felizes com seu interesse em contribuir para o **Laboratório de Estudos .NET**! Toda contribuição é bem-vinda e apreciada.
 
-Ao participar, você concorda em seguir nosso [Código de Conduta](./CODE_OF_CONDUCT.md). É importante notar também que todas as contribuições que você fizer serão disponibilizadas sob a [Licença MIT](../LICENSE) do projeto.
+Antes de começar, por favor, leia nosso [Código de Conduta](./CODE_OF_CONDUCT.md). Esperamos que todos os contribuidores sigam estas diretrizes para mantermos uma comunidade amigável e respeitosa. É importante notar também que todas as contribuições que você fizer serão disponibilizadas sob a [Licença MIT](../LICENSE) do projeto.
 
-## 🐞 Reportando Bugs
+## 🗺️ Como Posso Contribuir?
 
-- Utilize o [template de Bug Report](https://github.com/heviane/dotnet-lab/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBUG%5D+-) para criar uma issue.
-- Descreva o problema detalhadamente, incluindo passos para reproduzi-lo.
+Você pode contribuir de várias formas:
 
-## ✨ Sugerindo Melhorias
-
-- Para sugerir uma nova feature, utilize o [template de Feature Request](https://github.com/heviane/dotnet-lab/issues/new?assignees=&labels=feature&template=feature_request.md&title=%5BFEATURE%5D+-+).
-- Para melhorias na documentação, use o [template de Documentação](https://github.com/heviane/dotnet-lab/issues/new?assignees=&labels=documentation&template=documentation_improvement.md&title=%5BDOCS%5D+-+).
-
-## 🚀 Processo de Pull Request
-
-1. Faça um "fork" do repositório e crie uma branch a partir da `main`.
-2. Se você adicionou código, adicione também os testes correspondentes.
-3. Garanta que os testes existentes continuam passando.
-4. Certifique-se de que seu código segue as convenções de estilo do projeto.
-5. Abra o Pull Request para a branch `main`.
+- 🐞 **Reportando Bugs**: Se encontrar um erro no código ou na documentação, abra uma [Issue](https://github.com/heviane/dotnet-lab/issues).
+- ✨ **Sugerindo Melhorias**: Tem uma ideia para um novo projeto de estudo, um guia ou uma melhoria na estrutura? Abra uma [Issue](https://github.com/heviane/dotnet-lab/issues) para discutirmos.
+- 🚀 **Enviando Código ou Documentação**: Se você quer corrigir um bug, adicionar um novo exemplo ou escrever um guia, siga o nosso [Fluxo de Trabalho para Contribuições](./Workflow-for-contributions.md).
 
 Obrigado por contribuir! 💙

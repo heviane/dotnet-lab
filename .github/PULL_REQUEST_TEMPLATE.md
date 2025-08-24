@@ -1,4 +1,4 @@
-## 🎯 Qual é o propósito desta alteração?
+# 🎯 Qual é o propósito desta alteração?
 
 <!-- Descreva de forma clara e concisa o que este Pull Request faz. -->
 <!-- Se ele resolve uma Issue existente, por favor, link-a aqui. Ex: "Closes #123" -->

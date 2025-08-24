@@ -12,5 +12,7 @@ O principal objetivo desta pasta é centralizar toda a documentação técnica, 
 
 ## 📂 O que você encontrará aqui?
 
-- **Cursos e Anotações**.
-- **Guias de Projetos**.
+A documentação está organizada em duas seções principais:
+
+- **🎓 [Cursos e Anotações de Estudo](./courses/index.md)**: Roadmaps, conceitos teóricos e acompanhamento do progresso de aprendizado.
+- **🧭 [Guias do Projeto](./guides/index.md)**: Documentos práticos sobre ferramentas, convenções e processos do repositório.
