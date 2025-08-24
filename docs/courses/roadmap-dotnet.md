@@ -4,7 +4,7 @@ Roadmap lógico e progressivo para você se tornar um especialista em .NET, divi
 
 ---
 
-## 🟢 Fase 1: Fundamentos do .NET e C#
+## 🟢 Fase 1: Fundamentos do .NET e C# com Console Applications
 
 Tudo começa aqui. O objetivo é construir uma base sólida na linguagem C# e entender a plataforma .NET e suas ferramentas essenciais.
 
@@ -15,30 +15,20 @@ Tudo começa aqui. O objetivo é construir uma base sólida na linguagem C# e en
 
 ### 📚 Tópicos de Estudo
 
-🔹 **C# Essentials**
-
-- Tipos de dados, variáveis, operadores, estruturas de controle (if, else, switch), laços (for, while, foreach), métodos e namespaces.
-- Programação Orientada a Objetos: Classes, Structs, Herança, Polimorfismo, Encapsulamento, Interfaces e Classes Abstratas.
-- Delegates, eventos, LINQ
-- Async/await e programação assíncrona
-
-🔹 **SQL e Bancos de Dados Relacionais**
-
-- Fundamentos de SQL: `SELECT`, `INSERT`, `UPDATE`, `DELETE`, `JOIN`.
-- Modelagem de dados: Entender como criar tabelas, chaves primárias e estrangeiras.
-- *Por que agora?* É crucial entender SQL antes de usar uma ferramenta (ORM) que abstrai o acesso a dados.
-
-🔹 **.NET Runtime e SDK**
-
-- Diferença entre .NET Framework, .NET Core e .NET 5/6/7+
-- CLI (`dotnet new`, `dotnet build`, `dotnet run` e `dotnet sln`)
-- Gerenciamento de pacotes com NuGet
-
-🔹 **Ferramentas**
-
-- Visual Studio / Visual Studio Code
-- Git + GitHub
-- Debugging e profiling básico
+- **.NET**
+  - Diferença entre .NET Framework, .NET Core e .NET 5/6/7+
+  - .NET CLI (`dotnet new`, `dotnet build`, `dotnet run` e `dotnet sln`)
+  - Gerenciamento de pacotes com NuGet
+- **C# Fundamentos**: É a principal linguagem.
+- **Programação Orientada a Objetos**: C# é baseado neste paradigma.
+- **SQL e Bancos de Dados Relacionais**: É crucial entender SQL antes de usar uma ferramenta (ORM) que abstrai o acesso a dados.
+  - Fundamentos de SQL: `SELECT`, `INSERT`, `UPDATE`, `DELETE`, `JOIN`.
+  - Modelagem de dados: Entender como criar tabelas, chaves primárias e estrangeiras.
+- **Ferramentas**
+  - Visual Studio Code / Visual Studio
+  - Git + GitHub
+  - Debugging
+  - Profiling básico
 
 ### 💻 Prática
 

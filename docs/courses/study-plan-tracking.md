@@ -11,7 +11,13 @@ Acompanhamento do progresso baseado nos roadmap de estudo.
 - [X] Instalar o .NET SDK (versão mais recente).
 - [X] Instalar o Visual Studio Code e as extensões recomendadas.
 - [X] Usar Git e GitHub para criar repositórios de projetos e de estudos e documentações.
-- [X] Aplicações de Console com o uso do dotnet CLI no terminal.
+- [X] .NET CLI (Command Line Interface)
+- [X] NuGet: Gerenciador de Pacotes.
+- [X] Console Applications
+- [X] Debugging
+- [ ] Profiling básico: Fundamental para otimizar o desempenho e a eficiência de suas aplicações.
+  - [ ] Visual Studio Code - Ferramentas de diagnóstico do .NET via linha de comando.
+  - [ ] Visual Studio - Com interface gráfica de profiling integrada.
 
 ### Fundamentos do C#
 
@@ -52,25 +58,29 @@ Acompanhamento do progresso baseado nos roadmap de estudo.
   - [X] Iteração / Repetição (for, foreach, while, do while)
   - [X] Salto (Break, Continue, Return)
 - [X] Manipulação/Formatação de Valores de tipos primitivos.
-- [X] Boas práticas....Review...
+- [X] Boas práticas (Nomenclatura, Convenções, Organização)
   - [X] Nomenclaturas
   - [X] Comentários
   - [X] Convenções
   - [X] Espaços em branco
-  - [X] Remover blocos de código
+  - [ ] Organização de Código
+    - [X] namespaces
+    - [X] Remover blocos de código
 - [X] Exceptions:
   - [X] Tratamento de exceções: try, catch, finally.
   - [X] Lançamento de exceções: throw.
   - [X] Tipos de Exceções: genéricas e especificas.
   - [X] Stack Trace.
-
-- [ ] Colections (Implementações de Estruturas de Dados em C# usando POO)
+- [X] Colections (Implementações de Estruturas de Dados em C# usando POO)
   - [X] Arrays (Arranjos)
   - [X] Listas (`List<T>`)
-  - [ ] Filas (`Queue<T>`)
-  - [ ] Pilhas (`Stack<T>`)
-  - [ ] Dicionários (`Dictionary<TKey, TValue>`)
-  - [ ] Conjuntos (`HashSet<T>`)
+  - [X] Filas (`Queue<T>`)
+  - [X] Pilhas (`Stack<T>`)
+  - [X] Dicionários/Mapas (`Dictionary<TKey, TValue>`)
+  - [X] Conjuntos (`HashSet<T>`)
+
+- [ ] Delegates *tipos de dados*, eventos, LINQ
+- [ ] Async/await e programação assíncrona
 
 ### Programação Orientada a Objetos (POO)
 
@@ -79,7 +89,7 @@ Acompanhamento do progresso baseado nos roadmap de estudo.
 - [X] **Modificadores de Acesso**: `public`, `private`, `protect`.
 
 - [ ] Pilares:
-  - [ ] **Encapsulamento**: Aprofundamento com `private set` e validações.
+  - [ ] **Encapsulamento**: `private set`.
   - [ ] **Herança**: `class Filha : Pai`, `base`, `sealed`.
   - [ ] **Polimorfismo**: `virtual` e `override`.
   - [ ] **Abstração**: `abstract class` e `interface`.

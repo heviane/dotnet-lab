@@ -1,4 +1,4 @@
-# Arrays
+# Array
 
 É uma estrutura de dados que armazena valores do mesmo tipo, com um tamanho fixo.
 
@@ -17,26 +17,32 @@ Em outras palavras, imagine uma única variável que pode conter vários valores
 
 Uma matriz é uma coleção de elementos de dados individuais acessíveis por meio de um único nome de variável. Use um índice numérico baseado em zero para acessar cada elemento de uma matriz. As matrizes permitem que você crie uma coleção de valores de dados que compartilhe uma finalidade ou características comuns em um único nome de variável para facilitar o processamento.
 
-### Como declarar matrizes e acessar os elementos delas
+Uma matriz é uma variável especial que contém uma coleção de elementos de dados relacionados.
+
+## Exemplo de Uso
 
 Uma matriz é um tipo especial de variável que pode conter vários valores do mesmo tipo de dados. A sintaxe da declaração é ligeiramente diferente para uma matriz porque você precisa especificar o tipo de dados e o tamanho da matriz.
 
 ```csharp
-string[] fraudulentOrderIDs = new string[3];
+string[] orderIDs = new string[3]; // Declaração de matriz de cadeias de caracteres.
+
+orderIDs[0] = "A123";  // Adicionando valores à matriz.
+orderIDs[1] = "B456";
+orderIDs[2] = "C789";
+
+Console.WriteLine(orderIDs[0]); // Acessando o valor da matriz pelo índice.
+Console.WriteLine(orderIDs[1]);
+Console.WriteLine(orderIDs[2]);
 ```
 
-O operador `new` cria uma instância de uma matriz na memória do computador que pode conter três valores de cadeia de caracteres.
-
-O primeiro conjunto de colchetes `[]` simplesmente indica ao compilador que a variável de nome `fraudulentOrderIDs` é uma matriz. Já o segundo conjunto de colchetes `[3]` indica o número de elementos que a matriz conterá.
+- O operador `new` cria uma instância de uma matriz na memória do computador que pode conter três valores de cadeia de caracteres.
+- O primeiro conjunto de colchetes `[]` simplesmente indica ao compilador que a variável de nome `orderIDs` é uma matriz.
+- O segundo conjunto de colchetes `[3]` indica o número de elementos que a matriz conterá.
 
 > **Observação:** Esse exemplo demonstra como declarar uma matriz de cadeias de caracteres. No entanto, é possível criar matrizes de qualquer tipos de dados – inclusive os tipos primitivos, como `int` e `bool`, e tipos mais complexos como `classes`.
 
-### Recapitulação
+## Considerações Importantes sobre acesso
 
-Aqui estão as coisas mais importantes a serem lembradas ao trabalhar com matrizes:
-
-- Uma matriz é uma variável especial que contém uma coleção de elementos de dados relacionados.
-- Você deve memorizar o formato básico de uma declaração de variável de matriz.
 - Acesse cada elemento de uma matriz para definir ou obter seus valores usando um índice baseado em zero dentro de colchetes.
 - Se você tentar acessar um índice fora dos limites da matriz, será gerada uma exceção de runtime.
 - A propriedade `Length` é uma maneira programática de determinar o número de elementos em uma matriz.
@@ -61,10 +67,13 @@ foreach (int number in numbers)
 
 Abaixo da palavra-chave `foreach`, o bloco de código que contém `Console.WriteLine(name);` será executado uma vez para cada elemento da matriz names. Como o runtime do .NET executa um loop em cada elemento da matriz, o valor armazenado no elemento atual da matriz `names` será atribuído à variável temporária `name` para facilitar o acesso dentro do bloco de código.
 
-### Recapitulando
-
-Tópicos sobre instruções foreach e valores incrementais que você aprendeu nesta unidade:
+## Considerações Importantes sobre a instrução `foreach`
 
 - Use a instrução `foreach` para iterar em cada elemento de uma matriz, executando o bloco de código associado uma vez para cada elemento da matriz.
 - A instrução `foreach` define o valor do elemento atual na matriz como uma variável temporária, que pode ser usada no corpo do bloco de código.
 - Use o operador de incremento `++` para adicionar 1 ao valor atual de uma variável.
+
+## Referências
+
+- [Documentação Oficial do .NET sobre Arrays](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/)
+- [Documentação Oficial do .NET sobre foreach](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/iteration-statements#the-foreach-statement)
