@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using HelloWorld;
+using Newtonsoft.Json;
 
 // --- Usando a nossa nova classe Greeter ---
 // 1. Criamos uma instância (um objeto) da nossa classe Greeter.
@@ -196,14 +197,13 @@ foreach (int number in copyOfNumbers)
 }
 */
 
-
-
 // -------------------- Challenge - Listas
 /*
     Listas são coleções dinâmicas que podem crescer e encolher conforme necessário.
     Elas são mais flexíveis que arrays, pois permitem adicionar e remover elementos facilmente.
     Internamente, listas usam arrays para armazenar seus elementos, mas gerenciam o tamanho automaticamente.
 */
+/*
 List<int> numeros = new List<int>();
 
 numeros.Add(1);
@@ -220,6 +220,7 @@ foreach (int numero in numeros)
 {
     Console.WriteLine(numero);
 }
+*/
 
 // -------------------- Challenge - Operadores
 /*
@@ -615,8 +616,6 @@ Console.WriteLine($"A soma dos números digitados é: {soma}");
 */
 
 
-
-
 /*
     `Console.ReadLine()` não funciona no terminal de debug do Visual Studio Code.
 
@@ -631,4 +630,93 @@ Console.WriteLine($"A soma dos números digitados é: {soma}");
 
     ..... Ver
     Use `Console.ReadKey()` para capturar a entrada do usuário.
+*/
+
+// -------------------- Challenge - Tuplas
+/*
+
+// --- Exemplo 1 - Basic Tuples
+(int, string, string) basicTuple = (1, "Heviane", "Bastos");
+Console.WriteLine($"ID: {basicTuple.Item1}, First Name: {basicTuple.Item2}, Last Name: {basicTuple.Item3}");
+
+// --- Exemplo 2 - Named Tuples
+(int Id, string FirstName, string LastName) namedTuple1 = (1, "Heviane", "Bastos");
+Console.WriteLine($"ID: {namedTuple1.Id}, First Name: {namedTuple1.FirstName}, Last Name: {namedTuple1.LastName}");
+
+var namedTuple2 = (Id: 2, FirstName: "Gemini", LastName: "Bastos");
+Console.WriteLine($"ID: {namedTuple2.Id}, First Name: {namedTuple2.FirstName}, Last Name: {namedTuple2.LastName}");
+
+// --- Exemplo 3 - ValueTuple (NÃO permiti nomear os elementos)
+ValueTuple<int, string, string> myTuple = (3, "John", "Doe");
+Console.WriteLine($"ID: {myTuple.Item1}, First Name: {myTuple.Item2}, Last Name: {myTuple.Item3}");
+
+// --- Exemplo 4 - Tuple Class (NÃO permiti nomear os elementos)
+var myTuple2 = Tuple.Create(4, "Jane", "Doe");
+Console.WriteLine($"ID: {myTuple2.Item1}, First Name: {myTuple2.Item2}, Last Name: {myTuple2.Item3}");
+
+// RECOMENDAÇÃO: Usar Named Tuples para melhor legibilidade do código
+
+// -------------------- Challenge - Tuplas e Deconstrução
+
+var (id, firstName, lastName) = namedTuple1;
+Console.WriteLine($"ID: {id}, First Name: {firstName}, Last Name: {lastName}");
+
+// -------------------- Challenge - Tuplas em Métodos
+(int Id, string FirstName, string LastName) GetPerson() => (5, "Alice", "Smith");
+
+var person = GetPerson();
+Console.WriteLine($"ID: {person.Id}, First Name: {person.FirstName}, Last Name: {person.LastName}");
+
+*/
+
+// -------------------- Challenge - Serialização e Deserialização (using Newtonsoft.Json;)
+// TODO: Criar um projeto para isso ???
+
+/*
+// --- Serialização
+DateTime now = DateTime.Now; // ISO 8601 (Padroniza a representação de datas entre sistemas)
+
+Sale sale1 = new Sale(1, "Tennis", 125.00M, now);
+Sale sale2 = new Sale(2, "Boots", 199.00M, now);
+
+// Serializar um objeto
+string serialized = JsonConvert.SerializeObject(sale1, Formatting.Indented);
+
+Console.WriteLine(serialized);
+File.WriteAllText("sale.json", serialized);
+
+// Serializar uma Coleção
+List<Sale> sales = new List<Sale>();
+sales.Add(sale1);
+sales.Add(sale2);
+
+string salesJson = JsonConvert.SerializeObject(sales, Formatting.Indented);
+
+Console.WriteLine(salesJson);
+File.WriteAllText("sales.json", salesJson);
+*/
+
+// --- Deserialização de um objeto
+/*
+string serializedSale = File.ReadAllText("sale.json");
+Sale? sale = JsonConvert.DeserializeObject<Sale>(serializedSale);
+
+if (sale is not null)
+{
+    Console.WriteLine($"ID: {sale.Id}, Product: {sale.Product}, Price: {sale.Price}, Date: {sale.SaleDate.ToString("dd/MM/yyyy HH:mm")}");
+}
+*/
+
+// --- Deserialização de uma lista de objetos
+/*
+string serializedSale = File.ReadAllText("sales.json");
+List<Sale>? salesList = JsonConvert.DeserializeObject<List<Sale>>(serializedSale);
+
+if (salesList is not null)
+{
+    foreach (Sale sale in salesList)
+    {
+        Console.WriteLine($"ID: {sale.Id}, Product: {sale.Product}, Price: {sale.Price}, Date: {sale.SaleDate.ToString("dd/MM/yyyy HH:mm")}");
+    }
+}
 */

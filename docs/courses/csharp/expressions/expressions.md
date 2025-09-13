@@ -76,23 +76,10 @@ Usam a palavra-chave `new` para criar uma nova instância de uma classe.
 
 ### 8\. Expressões Condicionais
 
-O operador ternário (`? :`) é uma expressão condicional.
+São expressões que retornam um valor com base na avaliação de uma condição booleana. As principais são o **operador ternário (`?:`)** e as **`switch expressions`**.
 
-* `int max = (a > b) ? a : b;` (retorna `a` se a condição for `true`, ou `b` se for `false`).
-
-A partir da versão 8.0, as **"switch expressions"** também se encaixam aqui. Elas fornecem uma maneira mais concisa de escrever expressões baseadas em correspondência de padrões.
-
-    ```csharp
-    string fruta = "banana";
-    string tipo = fruta switch
-    {
-        "maçã" => "É uma maçã.",
-        "banana" => "É uma banana.",
-        _ => "Outra fruta."
-    };
-    ```
-
-A expressão `fruta switch { ... }` retorna a string correspondente ao valor da variável `fruta`.
+Para uma explicação detalhada, consulte o documento dedicado:
+➡️ Expressões Condicionais
 
 ## RESUMO
 

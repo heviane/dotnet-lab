@@ -26,6 +26,10 @@ public class CourseApp
         };
         pessoa2.Apresentar();
 
+        Pessoa pessoa3 = new Pessoa(3, "Ana", "Oliveira", new DateTime(1985, 10, 30));
+        (_, string name, string lastName, _) = pessoa3; // Desconstrução
+        Console.WriteLine($"Pessoa 3: {name} {lastName}.");
+
         // ------------------------- Curso e Alunos
         // Instanciando o curso
         Console.WriteLine($"\n--- Curso e Alunos: ---");
@@ -36,6 +40,7 @@ public class CourseApp
         // Adicionando alunos ao curso
         dotNetCourse.AddStudent(pessoa1);
         dotNetCourse.AddStudent(pessoa2);
+        dotNetCourse.AddStudent(pessoa3);
         dotNetCourse.ListStudents();
         dotNetCourse.GetStudentCount();
         Console.WriteLine($"Total de alunos matriculados no curso '{dotNetCourse.Name}': {dotNetCourse.GetStudentCount()}");

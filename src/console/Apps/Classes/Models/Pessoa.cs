@@ -3,6 +3,7 @@ namespace Models
     public class Pessoa
     {
 
+        // Construtores (Propriedades recebem variáveis)
         public Pessoa(int id, string name, string lastName, DateTime birthday)
         {
             Id = id;
@@ -14,6 +15,15 @@ namespace Models
         public Pessoa()
         {
             int id = 0; string name = string.Empty; string lastName = string.Empty; DateTime birthday = DateTime.MinValue;
+        }
+
+        // Desconstrutores (Variáveis recebem propriedades)
+        public void Deconstruct(out int id, out string name, out string lastName, out DateTime birthday)
+        {
+            id = Id;
+            name = Name;
+            lastName = LastName;
+            birthday = Birthday;
         }
 
         private string _name = string.Empty;

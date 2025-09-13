@@ -1,0 +1,14 @@
+[
+  {
+    "Id": 1,
+    "name_product": "Tennis",
+    "Price": 125.00,
+    "SaleDate": "2025-09-13T15:53:24.831049-03:00"
+  },
+  {
+    "Id": 2,
+    "name_product": "Boots",
+    "Price": 199.00,
+    "SaleDate": "2025-09-13T15:53:24.831049-03:00"
+  }
+]

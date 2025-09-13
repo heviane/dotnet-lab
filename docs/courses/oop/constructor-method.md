@@ -21,4 +21,5 @@ O construtor tem como finalidade atribuir valores para um objeto no momento de s
 
 ## Exemplos
 
-- [Conta Bancária](../../../../src/console/Apps/Classes/Models/ContaBancaria.cs): Um exemplo prático de como usar construtores para garantir que uma conta bancária sempre tenha um número de conta e um titular válidos.
+- [Classe Conta Bancária](../../../../src/console/Apps/Classes/Models/ContaBancaria.cs): Um exemplo prático de como usar construtores para garantir que uma conta bancária sempre tenha um número de conta e um titular válidos.
+- [Classe Pessoa](../../../../src/console/Apps/Classes/Models/Pessoa.cs): Um exemplo prático de como usar o método construtor para inicializar propriedades da classe.
