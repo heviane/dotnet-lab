@@ -78,7 +78,7 @@ Acompanhamento do progresso baseado nos roadmap de estudo.
   - [X] Pilhas (`Stack<T>`)
   - [X] Dicionários/Mapas (`Dictionary<TKey, TValue>`)
   - [X] Conjuntos (`HashSet<T>`)
-
+- [X] Serialização e Deserialização de Objetos
 - [ ] Delegates *tipos de dados*, eventos, LINQ
 - [ ] Async/await e programação assíncrona
 

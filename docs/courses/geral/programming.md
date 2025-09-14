@@ -18,3 +18,18 @@ As regras para escrever código são chamadas de sintaxe. Assim como as linguage
 ## O que é um Algoritmo?
 
 É uma sequência de passos lógicos e finitos, uma "receita", que você cria para resolver um problema específico. Programar é, em essência, traduzir algoritmos para uma linguagem que o computador entenda, transformando a lógica da solução em código executável.
+
+## Paradigmas de Programação
+
+Paradigma é um modelo de técnicas, estruturas e formas de solucionar um problema.
+Uma linguagem de programação implementa um ou mais paradigmas.
+
+- Programação Orientada a Objetos
+- Programação Estruturada
+- Programação Funcional
+- Programação Procedural
+- Programação Imperativa
+- Programação Lógica
+- Programação Orientada a Eventos
+- Programação Declarativa
+- etc.
