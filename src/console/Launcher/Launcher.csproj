@@ -6,6 +6,8 @@
     <ProjectReference Include="..\Apps\Loops\Loops.csproj" />
     <ProjectReference Include="..\Apps\Classes\Classes.csproj" />
     <ProjectReference Include="..\Apps\Examples\Examples.csproj" />
+    <ProjectReference Include="..\Apps\Agenda\Agenda.csproj" />
+    <ProjectReference Include="..\Apps\HelpDesk\HelpDesk.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

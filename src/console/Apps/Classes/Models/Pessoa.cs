@@ -17,6 +17,11 @@ namespace Models
             int id = 0; string name = string.Empty; string lastName = string.Empty; DateTime birthday = DateTime.MinValue;
         }
 
+        public Pessoa(string name)
+        {
+            Name = name;
+        }
+
         // Desconstrutores (Variáveis recebem propriedades)
         public void Deconstruct(out int id, out string name, out string lastName, out DateTime birthday)
         {
@@ -32,7 +37,7 @@ namespace Models
         public string Name { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;
         public DateTime Birthday { get; set; }
-        public int Age { get { return (int)((DateTime.Now - Birthday).TotalDays / 365.25); } }
+        public int Age { get { return (int) ((DateTime.Now - Birthday).TotalDays / 365.25); } }
         public bool IsAdult => Age >= 18;
         public string FullName => $"{Name} {LastName}";
 
