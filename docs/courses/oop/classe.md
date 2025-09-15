@@ -1,4 +1,4 @@
-# 🏛️ Classes
+# 🏛️ Classe
 
 Uma **classe** é a planta ou o modelo para criar objetos. Ela define um conjunto de propriedades (dados) e métodos (comportamentos) que os objetos criados a partir dela terão. É o conceito fundamental da Programação Orientada a Objetos (OOP).
 
