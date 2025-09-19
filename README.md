@@ -37,7 +37,8 @@ Um guia passo a passo para seus estudos. Ela foi desenhada para te guiar dos fun
 
 ## 🤝 Como Contribuir
 
-Este é um projeto de código aberto e toda contribuição é bem-vinda! Se você tem interesse em ajudar, por favor, leia nosso [Guia de Contribuição](.github/CONTRIBUTING.md) para saber como começar.
+Este é um projeto de código aberto e toda contribuição é bem-vinda!
+Se você tem interesse em ajudar, por favor, leia nosso [Guia de Contribuição](.github/CONTRIBUTING.md) para saber como começar.
 
 ## 📂 Estrutura do Repositório
 
@@ -63,7 +64,7 @@ O projeto é organizado de forma a separar claramente a documentação do códig
 
 ## 📚 Documentação
 
-Toda a documentação detalhada, guias, anotações de estudo e explicações conceituais estão centralizadas em nosso site de documentação, gerado com MkDocs.
+Toda a documentação detalhada, guias, anotações de estudo e explicações conceituais estão centralizadas em nosso site de documentação, gerado com **MkDocs**.
 
 ➡️ **[Acesse a Documentação Completa](https://heviane.github.io/dotnet-lab/)**
 
