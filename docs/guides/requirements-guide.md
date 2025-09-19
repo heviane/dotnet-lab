@@ -1,4 +1,4 @@
-# Guia para Ambiente .NET
+# Guia de Requisitos para Ambiente .NET
 
 Este guia detalha os requisitos de hardware, software e conhecimento necessários para começar a sua jornada de estudos e desenvolvimento na plataforma .NET.
 

@@ -13,6 +13,8 @@ Estes comandos são usados para interagir diretamente com um arquivo de projeto 
 | Comando | Descrição |
 | :--- | :--- |
 | `dotnet new <TEMPLATE>` | Cria um novo projeto a partir de um template. Ex: `dotnet new console -o MeuApp`. |
+| `dotnet new list` | Lista todos os templates de projeto disponíveis na sua máquina. |
+| `dotnet new search <TERMO>` | Procura por templates no NuGet. Útil para encontrar templates da comunidade. |
 | `dotnet run` | Compila e executa o projeto a partir do diretório atual. |
 | `dotnet build` | Compila o projeto e suas dependências em um conjunto de binários. |
 | `dotnet test` | Executa os testes de um projeto de teste. |
