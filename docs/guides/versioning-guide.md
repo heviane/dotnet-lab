@@ -2,7 +2,7 @@
 
 Este documento descreve como o versionamento é aplicado neste projeto de estudos, seguindo as diretrizes do **[Versionamento Semântico 2.0.0](https://semver.org/lang/pt-BR/)**.
 
-> O versionamento nos ajuda a entender o escopo das alterações entre as "entregas" ou marcos de estudo, e funciona em conjunto com o arquivo [CHANGELOG.md](./CHANGELOG.md).
+> O versionamento nos ajuda a entender o escopo das alterações entre as "entregas" ou marcos de estudo, e funciona em conjunto com o arquivo [CHANGELOG.md](../CHANGELOG.md).
 
 ---
 
