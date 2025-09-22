@@ -10,25 +10,25 @@ Tudo começa aqui. O objetivo é construir uma base sólida na linguagem C# e en
 
 ### 🎯 **Objetivos**
 
-- Aprender a programar em C#, dominar a sintaxe e os principais recursos.
-- Sentir-se confortável usando a CLI (Interface de Linha de Comando) do `dotnet`.
+- [X] Aprender a programar em C#, dominar a sintaxe e os principais recursos.
+- [X] Sentir-se confortável usando a CLI (Interface de Linha de Comando) do `dotnet`.
 
 ### 📚 Tópicos de Estudo
 
 - **.NET**
-  - Diferença entre .NET Framework, .NET Core e .NET 5/6/7+
-  - .NET CLI (`dotnet new`, `dotnet build`, `dotnet run` e `dotnet sln`)
-  - Gerenciamento de pacotes com NuGet
+  - [X] Diferença entre .NET Framework, .NET Core e .NET 5/6/7+
+  - [X] .NET CLI (`dotnet new`, `dotnet build`, `dotnet run` e `dotnet sln`)
+  - [X] Gerenciamento de pacotes com NuGet
 - **C# Fundamentos**: É a principal linguagem.
 - **Programação Orientada a Objetos**: C# é baseado neste paradigma.
 - **SQL e Bancos de Dados Relacionais**: É crucial entender SQL antes de usar uma ferramenta (ORM) que abstrai o acesso a dados.
   - Fundamentos de SQL: `SELECT`, `INSERT`, `UPDATE`, `DELETE`, `JOIN`.
   - Modelagem de dados: Entender como criar tabelas, chaves primárias e estrangeiras.
 - **Ferramentas**
-  - Visual Studio Code / Visual Studio
-  - Git + GitHub
-  - Debugging
-  - Profiling básico
+  - [X] Visual Studio Code / Visual Studio
+  - [X] Git + GitHub
+  - [X] Debugging
+  - [ ] Profiling básico
 
 ### 💻 Prática
 
@@ -43,7 +43,7 @@ Com a base sólida, é hora de construir serviços web. As **Web APIs** são a e
 
 ### 🎯 Objetivos
 
-- Entender os conceitos de HTTP (Verbos, Status Codes), arquitetura REST e JSON.
+- [X] Entender os conceitos de HTTP (Verbos, Status Codes), arquitetura REST e JSON.
 - Criar endpoints que expõem dados e funcionalidades (serviços HTTP sem interface gráfica). Elas retornam dados brutos (geralmente em formato JSON) para serem consumidos por outras aplicações, como um site feito em JavaScript (React, Angular), um aplicativo mobile ou outro serviço de backend.
 
 ### 📚 Tópicos de Estudo
@@ -56,11 +56,11 @@ Com a base sólida, é hora de construir serviços web. As **Web APIs** são a e
 
 🔹 **APIs RESTful**
 
-- Criação de endpoints (CRUD com dados em memória)
+- [X] Criação de endpoints (CRUD com dados em memória)
 - Versionamento de API
 - Autenticação e Autorização com JWT
 - Boas práticas de segurança: Validação de entrada (Input Validation), gerenciamento de segredos (Secret Management), princípios do OWASP.
-- Documentação com Swagger/OpenAPI
+- [X] Documentação com Swagger/OpenAPI
 
 ### 💻 Prática
 
@@ -95,7 +95,8 @@ Escrever código que funciona é o primeiro passo. Escrever código limpo, organ
 
 🔹 **Testes**
 
-- xUnit / NUnit
+- [X] xUnit
+- NUnit
 - Moq / FakeItEasy
 - Testes de unidade, integração e carga
 

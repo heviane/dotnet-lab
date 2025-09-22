@@ -50,29 +50,29 @@ Para adicionar uma nova Web API, siga estes dois passos:
 
 1. **Crie o Novo Projeto**: Use a CLI do .NET para criar seu novo projeto de API dentro da pasta `Apps`.
 
-    - Template `webapi` é o mais recomendado.
+- Template `webapi` é o mais recomendado.
 
-    ```bash
-    dotnet new webapi -o src/api/Apps/MinhaNovaApi
-    ```
+```bash
+dotnet new webapi -o src/api/Apps/MinhaNovaApi
+```
 
-2. **Execute a Nova API**: Compile e execute o projeto recém-criado. Você pode fazer isso de duas maneiras:
+1. **Execute a Nova API**: Compile e execute o projeto recém-criado. Você pode fazer isso de duas maneiras:
 
-   * **Execução Simples**: Use `dotnet run` para compilar e iniciar a API uma vez.
+- **Execução Simples**: Use `dotnet run` para compilar e iniciar a API uma vez.
 
-        ```bash
-        # A partir do diretório raiz do repositório
-        dotnet run --project src/api/Apps/MinhaNovaApi/MinhaNovaApi.csproj
-        ```
+```bash
+# A partir do diretório raiz do repositório
+dotnet run --project src/api/Apps/MinhaNovaApi/MinhaNovaApi.csproj
+```
 
-   * **Execução com "Hot Reload" (Recomendado para Desenvolvimento)**: Use `dotnet watch run` para que o .NET monitore seus arquivos. A cada alteração salva, a API é automaticamente reiniciada.
+- **Execução com "Hot Reload" (Recomendado para Desenvolvimento)**: Use `dotnet watch run` para que o .NET monitore seus arquivos. A cada alteração salva, a API é automaticamente reiniciada.
 
-        ```bash
-        # Navegue até a pasta do novo projeto
-        cd src/api/Apps/MinhaNovaApi
+```bash
+# Navegue até a pasta do novo projeto
+cd src/api/Apps/MinhaNovaApi
 
-        # Execute com o "watcher"
-        dotnet watch run
-        ```
+# Execute com o "watcher"
+dotnet watch run
+```
 
 Pronto! Sua nova API já está rodando e pronta para ser desenvolvida. Diferente dos projetos de console, não há um `Launcher` central; cada API é um ponto de entrada independente.

@@ -1,3 +1,19 @@
+// See https://aka.ms/new-console-template for more information
+
+/* ------------- Minimal API - Hello World -------------
+
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.Hosting;
+
+// Simple "Hello World" web application using minimal APIs in ASP.NET Core
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
+
+app.MapGet("/", () => "Hello World!"); // http://localhost:5040/
+app.Run();
+------------- */
+
+// ------------- API com Controllers e Swagger -------------
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

@@ -8,18 +8,31 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace HelloWorld.Controllers
 {
+    /// <summary>
+    /// Controller responsável por operações relacionadas a saudações.
+    /// </summary>
     [ApiController]
     [Route("api/[controller]")] // Defines the route as /api/user
     public class UserController : ControllerBase
     {
-        // Método GET que retorna uma saudação simples, sem parâmetros
+        /// <summary>
+        /// Retorna uma saudação simples "Hello, World!".
+        /// </summary>
+        /// <returns>Uma string com a saudação.</returns>
+        /// <response code="200">Retorna a mensagem "Hello, World!".</response>
         [HttpGet("greet")]
         public ActionResult<string> GetHello()
         {
             return Ok("Hello, World!"); // return only string // Output: "Hello, World!"
         }
 
-        // Método GET que retorna uma saudação personalizada, com um parâmetro de nome
+        /// <summary>
+        /// Retorna uma saudação personalizada para o nome fornecido.
+        /// </summary>
+        /// <param name="name">O nome a ser incluído na saudação.</param>
+        /// <returns>Um objeto JSON com a mensagem de saudação personalizada.</returns>
+        /// <response code="200">Retorna a saudação personalizada.</response>
+        /// <response code="400">Se o nome fornecido for nulo, vazio ou contiver apenas espaços em branco.</response>
         [HttpGet("greet/{name}")]
         public ActionResult<string> GreetByName(string name)
         {
