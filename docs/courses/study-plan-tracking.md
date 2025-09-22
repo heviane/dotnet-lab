@@ -18,11 +18,23 @@ Acompanhamento do progresso baseado nos roadmap de estudo.
 - [ ] Profiling básico: Fundamental para otimizar o desempenho e a eficiência de suas aplicações.
   - [ ] Visual Studio Code - Ferramentas de diagnóstico do .NET via linha de comando.
   - [ ] Visual Studio - Com interface gráfica de profiling integrada.
+- [ ] APIs RESTful
+  - [X] Entender os conceitos de HTTP (Verbos, Status Codes), arquitetura REST e JSON.
+  - [X] Web API Minimal e Web API com Controllers e Models
+  - [X] Documentação com Swagger/OpenAPI
+  - [X] Criação de endpoints (CRUD com dados em memória)
+  - [X] Testes em mode Debug com Postamn
+  - [X] Testes com .http, curl e Postman
+  - [ ] Criação de endpoints (CRUD com dados em banco de dados relacional)
+  - [ ] Versionamento de API
+  - [ ] Autenticação e Autorização com JWT
+  - [ ] Boas práticas de segurança: Validação de entrada (Input Validation), gerenciamento de segredos (Secret Management), princípios do OWASP.
+
+### Fundamentos do .NET
 
 ### Fundamentos do C#
 
 - [ ] Tipos de Dados (Tipos de Valor e Tipos de Referência):
-
   - [ ] Tipo de Valor (Value Type)
     - [X] Numéricos Inteiros: `int`, `short`, `long`, `byte`.
     - [X] Numéricos Reais: `float`, `double`, `decimal`.
@@ -30,7 +42,6 @@ Acompanhamento do progresso baseado nos roadmap de estudo.
     - [X] Caractere: `char`.
     - [ ] `struct`: É um tipo de valor, ideal para pequenas estruturas de dados onde o valor em si é mais importante que a identidade do objeto (ex: um ponto 2D, uma cor RGB).
     - [ ] `enum`: É um Tipo de Valor que permite definir um conjunto de constantes nomeadas.
-
   - [ ] Tipo de Referência (Reference Type)
     - [X] `string`: Frequentemente discutido junto com os primitivos porque possui uma sintaxe literal ("meu texto") e é usado constantemente, más é Tipo de Referência.
     - [X] `class`: É a palavra-chave usada para definir Tipos de Referência (Reference Types) personalizados.
@@ -41,8 +52,7 @@ Acompanhamento do progresso baseado nos roadmap de estudo.
       - Apesar de ser a raiz de toda a hierarquia de tipos, `object` em si é um **Tipo de Referência**.
     - [X] `array`: É uma coleção de tamanho fixo que armazena múltiplos elementos do mesmo tipo.
     - [ ] `delegate`: É um tipo que funciona como um "ponteiro" seguro para um método, permitindo que métodos sejam tratados como dados.
-    - [ ] `interface`: Define um "contrato" de funcionalidades que uma `class` ou `struct` pode implementar.
-
+    - [X] `interface`: Define um "contrato" de funcionalidades que uma `class` ou `struct` pode implementar.
 - [X] Variáveis
 - [X] Constantes
 - [X] Escopo de variáveis
@@ -88,8 +98,8 @@ Acompanhamento do progresso baseado nos roadmap de estudo.
 - [X] **Membros de uma Classe**: Propriedades, Métodos e Construtores.
 - [X] **Modificadores de Acesso**: `public`, `private`, `protect`.
 
-- [ ] Pilares:
-  - [ ] **Encapsulamento**: `private set`.
-  - [ ] **Herança**: `class Filha : Pai`, `base`, `sealed`.
-  - [ ] **Polimorfismo**: `virtual` e `override`.
-  - [ ] **Abstração**: `abstract class` e `interface`.
+- [X] Pilares:
+  - [X] **Encapsulamento**: `private set`.
+  - [X] **Herança**: `class Filha : Pai`, `base`, `sealed`.
+  - [X] **Polimorfismo**: `virtual` e `override`.
+  - [X] **Abstração**: `abstract class` e `interface`.
