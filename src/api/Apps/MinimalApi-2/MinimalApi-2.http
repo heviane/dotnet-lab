@@ -1,0 +1,25 @@
+@MinimalApi_2_HostAddress = http://localhost:5063
+
+###
+# (READ) Busca a previsão do tempo.
+# Deve retornar um status 200 OK e uma lista de previsões.
+GET {{MinimalApi_2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+# (USER) Retorna uma saudação genérica "Hello, World!".
+# Deve retornar um status 200 OK.
+GET {{MinimalApi_2_HostAddress}}/api/user/greet
+Accept: text/plain
+
+###
+# (USER) Retorna uma saudação personalizada.
+# Deve retornar um status 200 OK e um objeto JSON.
+GET {{MinimalApi_2_HostAddress}}/api/user/greet/Heviane
+Accept: application/json
+
+###
+# (USER) Tenta retornar uma saudação sem fornecer um nome.
+# Deve retornar um status 400 Bad Request.
+GET {{MinimalApi_2_HostAddress}}/api/user/greet/
+Accept: application/json

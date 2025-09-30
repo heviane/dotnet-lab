@@ -8,8 +8,6 @@ var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
 
-// --- Minhas implementações ---
-
 // DTO (Data Transfer Object) para receber login
 app.MapPost("/login", (LoginDTO loginDTO) =>
 {
@@ -22,15 +20,12 @@ app.MapPost("/login", (LoginDTO loginDTO) =>
         return Results.Unauthorized();
     }
 });
-// --- Minhas implementações ---
 
 // Configurado launch.json in .vscode para executar em modo DEBUG
 app.Run();
 
-// --- Minhas implementações ---
 public class LoginDTO
 {
     public string Email { get; set; } = default!;
     public string Password { get; set; } = default!;
 }
-// --- Minhas implementações ---
