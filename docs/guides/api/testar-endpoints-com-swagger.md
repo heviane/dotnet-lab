@@ -2,6 +2,14 @@
 
 A documentação interativa gerada pelo **Swagger (OpenAPI)** é uma das ferramentas mais poderosas no ecossistema ASP.NET Core. Ela não apenas documenta sua API, mas também fornece uma interface de usuário (UI) para testar cada endpoint diretamente do navegador, sem a necessidade de ferramentas externas como Postman ou arquivos `.http`.
 
+## Passo a Passo para instalar o Swagger
+
+```bash
+dotnet add package Swashbuckle.AspNetCore
+```
+
+Este comando instala e adiciona a referência do pacote ao seu arquivo de projeto (.csproj).
+
 ## Passo a Passo para Testar com a Swagger UI
 
 ### 1. Inicie a sua API

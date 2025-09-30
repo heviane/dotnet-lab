@@ -1,0 +1,67 @@
+@Agenda_HostAddress = http://localhost:5110
+
+###
+# (CREATE) Cria um novo contato
+# @name createContact
+POST {{Agenda_HostAddress}}/api/contact
+Content-Type: application/json
+
+{
+  "name": "Heviane Bastos",
+  "phone": "11987654321",
+  "email": "heviane@email.com",
+  "isActive": true
+}
+
+###
+# (READ) Obtém o ID do contato recém-criado
+@contactId = {{createContact.response.body.id}}
+
+###
+# (READ) Busca todos os contatos
+GET {{Agenda_HostAddress}}/api/contact
+
+###
+# (READ) Busca um contato específico pelo ID
+GET {{Agenda_HostAddress}}/api/contact/{{contactId}}
+
+###
+# (UPDATE) Atualiza um contato existente
+PUT {{Agenda_HostAddress}}/api/contact/{{contactId}}
+Content-Type: application/json
+
+{
+  "name": "Heviane B. de Souza",
+  "phone": "11999999999",
+  "email": "heviane.souza@email.com",
+  "isActive": false
+}
+
+###
+# (PATCH) Atualiza parcialmente um contato (apenas phone e email)
+PATCH {{Agenda_HostAddress}}/api/contact/{{contactId}}
+Content-Type: application/json
+
+{
+  "phone": "5511988887777",
+  "email": "novo.email@email.com"
+}
+
+###
+# (DELETE) Deleta um contato
+DELETE {{Agenda_HostAddress}}/api/contact/{{contactId}}
+
+###
+# (READ) Tenta buscar o contato deletado (deve retornar 404 Not Found)
+GET {{Agenda_HostAddress}}/api/contact/{{contactId}}
+
+###
+# (CREATE) Exemplo de requisição inválida (sem nome)
+# Deve retornar um erro 400 Bad Request
+POST {{Agenda_HostAddress}}/api/contact
+Content-Type: application/json
+
+{
+  "phoneNumber": "21987654321",
+  "isActive": true
+}

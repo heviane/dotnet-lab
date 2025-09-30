@@ -1,43 +1,41 @@
-// See https://aka.ms/new-console-template for more information
-
-// ------------- Minimal API - Hello World -------------
-/*
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.Hosting;
-
-// Simple "Hello World" web application using minimal APIs in ASP.NET Core
-var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
-
-app.MapGet("/", () => "Hello World!"); // http://localhost:5040/
-app.Run();
-*/
-
-// ------------- API com Controllers e Swagger -------------
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-// Adiciona os serviços necessários para gerar a documentação Swagger.
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-// Adiciona os serviços para que a API reconheça e use os Controllers.
-builder.Services.AddControllers();
+// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-// Habilita o Swagger e a UI do Swagger apenas em ambiente de desenvolvimento.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    app.MapOpenApi();
 }
 
 app.UseHttpsRedirection();
 
-// Mapeia as rotas definidas nos seus arquivos de Controller.
-app.MapControllers();
+var summaries = new[]
+{
+    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+};
+
+app.MapGet("/weatherforecast", () =>
+{
+    var forecast =  Enumerable.Range(1, 5).Select(index =>
+        new WeatherForecast
+        (
+            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
+            Random.Shared.Next(-20, 55),
+            summaries[Random.Shared.Next(summaries.Length)]
+        ))
+        .ToArray();
+    return forecast;
+})
+.WithName("GetWeatherForecast");
 
 app.Run();
+
+record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
+{
+    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+}

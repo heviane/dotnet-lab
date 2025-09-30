@@ -1,28 +1,6 @@
-# Este arquivo é uma maneira simples e poderosa de testar sua API diretamente do seu editor de código
-# (como o VS Code com a extensão REST Client ou o cliente HTTP nativo do Visual Studio e do Rider).
-# Ele permite que você defina e envie requisições HTTP sem precisar de ferramentas externas como o Postman.
-
-# Se a porta mudar, basta alterar aqui nesta linha, e todas as requisições no arquivo que usam essa variável serão atualizadas automaticamente.
-@HelloWorld_HostAddress = http://localhost:5040
+@HelloWorld_HostAddress = http://localhost:5209
 
 GET {{HelloWorld_HostAddress}}/weatherforecast/
-# Este é um cabeçalho (header) da requisição.
-Accept: application/json
-
-# Este (###) é um separador. Ele permite que você escreva múltiplas requisições independentes no mesmo arquivo .http.
-
-###
-
-# --- UserController Endpoints ---
-
-# @name GetHello
-# Retorna uma saudação simples: "Hello, World!"
-GET {{HelloWorld_HostAddress}}/api/user/greet
 Accept: application/json
 
 ###
-
-# @name GreetByName
-# Retorna uma saudação personalizada em formato JSON.
-GET {{HelloWorld_HostAddress}}/api/user/greet/Heviane
-Accept: application/json

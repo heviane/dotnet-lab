@@ -34,3 +34,15 @@ Guias que explicam a anatomia e os conceitos fundamentais dos projetos .NET.
 - **[Anatomia de um Projeto .NET](./project-structure.md)**: O propósito de cada arquivo e pasta (`.csproj`, `bin/`, `obj/`).
 - **[Entendendo o Arquivo de Solução (.sln)](./solution-file_.sln_.md)**: Para que serve e como gerenciar uma solução com múltiplos projetos.
 - **[Adicionar Referência de Projeto](./add-project-reference.md)**: Como fazer um projeto "enxergar" o outro.
+
+---
+
+## 🏛️ Arquitetura e API
+
+- **[Entidade vs. DTO vs. Modelo](./api/entity-vs-dto-vs-model.md)**: Entenda a diferença e o papel de cada um.
+
+---
+
+## 🗃️ Acesso a Dados
+
+- **[Entity Framework](./api/entity-framework.md)**: Guia sobre a integração de APIs com bancos de dados.
